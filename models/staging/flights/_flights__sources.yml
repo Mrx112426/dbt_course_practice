@@ -52,3 +52,9 @@ sources:
               period: day
             filter: current_timestamp::date - book_date::date < 30000
           loaded_at_field: book_date::timestamp
+        - name: boarding_passes
+          description: Таблица с билетами и рейсами
+        - name: flights
+          description: Рейсы
+        - name: ticket_flights
+          description: Стоимость билетов на самолет
