@@ -1,0 +1,12 @@
+
+    
+    
+    truncate table "dwh_flight"."intermediate"."city_region";
+    -- dbt seed --
+    
+          insert into "dwh_flight"."intermediate"."city_region" ("city", "region") values
+          (%s,%s),(%s,%s),(%s,%s),(%s,%s)
+      
+
+;
+  

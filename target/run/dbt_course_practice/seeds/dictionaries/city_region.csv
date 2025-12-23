@@ -1,0 +1,14 @@
+
+    
+    
+    
+    create table "dwh_flight"."intermediate_seeds"."city_region" ("city" varchar(50),"region" varchar(50),"updated_at" timestamp)
+  ;
+    -- dbt seed --
+    
+          insert into "dwh_flight"."intermediate_seeds"."city_region" ("city", "region", "updated_at") values
+          (%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s)
+      
+
+;
+  

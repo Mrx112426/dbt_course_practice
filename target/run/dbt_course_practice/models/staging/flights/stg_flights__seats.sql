@@ -2,7 +2,7 @@
   
     
 
-  create  table "dwh_flight"."intermediate"."stg_flights_seats__dbt_tmp"
+  create  table "dwh_flight"."intermediate"."stg_flights__seats__dbt_tmp"
   
   
     as
