@@ -58,3 +58,5 @@ sources:
           description: Рейсы
         - name: ticket_flights
           description: Стоимость билетов на самолет
+        - name: tickets
+          description: Билеты описание
