@@ -11858,3 +11858,240 @@ group by scheduled_departure_date
 [0m14:29:46.256433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214044B3B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002140600F8B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002140600F750>]}
 [0m14:29:46.256766 [debug] [MainThread]: Flushing usage events
 [0m14:29:47.126384 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:41:10.549962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001726C364980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001726CE08B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001726D44FED0>]}
+
+
+============================== 14:41:10.553889 | c8392b5c-15ce-4e0a-a496-2f0a5b4b0dea ==============================
+[0m14:41:10.553889 [info ] [MainThread]: Running with dbt=1.10.17
+[0m14:41:10.554645 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt compile --select flights_by_aircraft', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'D:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m14:41:10.720831 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c8392b5c-15ce-4e0a-a496-2f0a5b4b0dea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001726C7D09D0>]}
+[0m14:41:10.781652 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c8392b5c-15ce-4e0a-a496-2f0a5b4b0dea', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001726D2EFF00>]}
+[0m14:41:10.782657 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m14:41:10.976024 [debug] [MainThread]: checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e, vars: {}, profile: , target: , version: 1.10.17
+[0m14:41:11.205938 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m14:41:11.206584 [debug] [MainThread]: Partial parsing: added file: dbt_course_practice://analyses\flights_by_aircraft.sql
+[0m14:41:11.351492 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Analysis 'analysis.dbt_course_practice.flights_by_aircraft' (analyses\flights_by_aircraft.sql) depends on a node named 'fct_fligths' which was not found
+[0m14:41:11.353524 [debug] [MainThread]: Command `dbt compile` failed at 14:41:11.353373 after 1.11 seconds
+[0m14:41:11.353898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001726D509F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001726D508F50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001726EB39A90>]}
+[0m14:41:11.354241 [debug] [MainThread]: Flushing usage events
+[0m14:41:12.261816 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:42:09.827114 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42B444980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42BEF8B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42C53FED0>]}
+
+
+============================== 14:42:09.831087 | 6ad9a199-c02e-4623-828b-15560b79fec1 ==============================
+[0m14:42:09.831087 [info ] [MainThread]: Running with dbt=1.10.17
+[0m14:42:09.831897 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt compile --select flights_by_aircraft', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'D:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m14:42:10.019170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6ad9a199-c02e-4623-828b-15560b79fec1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42B8B09D0>]}
+[0m14:42:10.078037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6ad9a199-c02e-4623-828b-15560b79fec1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42C3DFF00>]}
+[0m14:42:10.079024 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m14:42:10.233324 [debug] [MainThread]: checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e, vars: {}, profile: , target: , version: 1.10.17
+[0m14:42:10.411112 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m14:42:10.411671 [debug] [MainThread]: Partial parsing: added file: dbt_course_practice://analyses\flights_by_aircraft.sql
+[0m14:42:10.650726 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6ad9a199-c02e-4623-828b-15560b79fec1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42DC3E150>]}
+[0m14:42:10.756059 [debug] [MainThread]: Wrote artifact WritableManifest to D:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m14:42:10.758780 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m14:42:10.780912 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6ad9a199-c02e-4623-828b-15560b79fec1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42DAC2C60>]}
+[0m14:42:10.781443 [info ] [MainThread]: Found 14 models, 2 snapshots, 1 seed, 5 data tests, 2 analyses, 8 sources, 462 macros
+[0m14:42:10.782195 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6ad9a199-c02e-4623-828b-15560b79fec1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42C54E890>]}
+[0m14:42:10.784082 [info ] [MainThread]: 
+[0m14:42:10.784721 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m14:42:10.785174 [info ] [MainThread]: 
+[0m14:42:10.785768 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m14:42:10.791247 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight_intermediate'
+[0m14:42:10.798168 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight_snapshot'
+[0m14:42:10.904155 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate"
+[0m14:42:10.904574 [debug] [ThreadPool]: On list_dwh_flight_intermediate: BEGIN
+[0m14:42:10.904843 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:42:10.905402 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_snapshot"
+[0m14:42:10.905824 [debug] [ThreadPool]: On list_dwh_flight_snapshot: BEGIN
+[0m14:42:10.906256 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:42:11.030670 [debug] [ThreadPool]: SQL status: BEGIN in 0.126 seconds
+[0m14:42:11.031836 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate"
+[0m14:42:11.032308 [debug] [ThreadPool]: On list_dwh_flight_intermediate: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_intermediate"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'intermediate'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'intermediate'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'intermediate'
+  
+[0m14:42:11.034053 [debug] [ThreadPool]: SQL status: BEGIN in 0.128 seconds
+[0m14:42:11.034471 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_snapshot"
+[0m14:42:11.034791 [debug] [ThreadPool]: On list_dwh_flight_snapshot: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_snapshot"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'snapshot'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'snapshot'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'snapshot'
+  
+[0m14:42:11.169539 [debug] [ThreadPool]: SQL status: SELECT 16 in 0.137 seconds
+[0m14:42:11.170989 [debug] [ThreadPool]: On list_dwh_flight_intermediate: ROLLBACK
+[0m14:42:11.171592 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.136 seconds
+[0m14:42:11.172635 [debug] [ThreadPool]: On list_dwh_flight_snapshot: ROLLBACK
+[0m14:42:11.173915 [debug] [ThreadPool]: On list_dwh_flight_intermediate: Close
+[0m14:42:11.174625 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dwh_flight_intermediate, now list_dwh_flight_intermediate_seeds)
+[0m14:42:11.176429 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate_seeds"
+[0m14:42:11.176785 [debug] [ThreadPool]: On list_dwh_flight_snapshot: Close
+[0m14:42:11.177128 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: BEGIN
+[0m14:42:11.180760 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:42:11.283013 [debug] [ThreadPool]: SQL status: BEGIN in 0.102 seconds
+[0m14:42:11.283419 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate_seeds"
+[0m14:42:11.283687 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_intermediate_seeds"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'intermediate_seeds'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'intermediate_seeds'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'intermediate_seeds'
+  
+[0m14:42:11.408008 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.124 seconds
+[0m14:42:11.409229 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: ROLLBACK
+[0m14:42:11.412194 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: Close
+[0m14:42:11.417567 [debug] [MainThread]: Using postgres connection "master"
+[0m14:42:11.417936 [debug] [MainThread]: On master: BEGIN
+[0m14:42:11.418181 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:42:11.530288 [debug] [MainThread]: SQL status: BEGIN in 0.112 seconds
+[0m14:42:11.530697 [debug] [MainThread]: Using postgres connection "master"
+[0m14:42:11.531015 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m14:42:11.656275 [debug] [MainThread]: SQL status: SELECT 1 in 0.125 seconds
+[0m14:42:11.657755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6ad9a199-c02e-4623-828b-15560b79fec1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42DC668F0>]}
+[0m14:42:11.658154 [debug] [MainThread]: On master: ROLLBACK
+[0m14:42:11.661376 [debug] [MainThread]: On master: Close
+[0m14:42:11.667826 [debug] [Thread-1 (]: Began running node analysis.dbt_course_practice.flights_by_aircraft
+[0m14:42:11.668422 [debug] [Thread-1 (]: Acquiring new postgres connection 'analysis.dbt_course_practice.flights_by_aircraft'
+[0m14:42:11.668767 [debug] [Thread-1 (]: Began compiling node analysis.dbt_course_practice.flights_by_aircraft
+[0m14:42:11.677794 [debug] [Thread-1 (]: Using postgres connection "analysis.dbt_course_practice.flights_by_aircraft"
+[0m14:42:11.678537 [debug] [Thread-1 (]: On analysis.dbt_course_practice.flights_by_aircraft: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "analysis.dbt_course_practice.flights_by_aircraft"} */
+
+    
+SELECT DISTINCT
+    aircraft_code
+FROM
+    "dwh_flight"."intermediate"."fct_flights"
+
+  
+[0m14:42:11.679073 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m14:42:11.934335 [debug] [Thread-1 (]: SQL status: SELECT 8 in 0.255 seconds
+[0m14:42:11.935717 [debug] [Thread-1 (]: Writing injected SQL for node "analysis.dbt_course_practice.flights_by_aircraft"
+[0m14:42:11.936581 [debug] [Thread-1 (]: Began executing node analysis.dbt_course_practice.flights_by_aircraft
+[0m14:42:11.936961 [debug] [Thread-1 (]: On analysis.dbt_course_practice.flights_by_aircraft: Close
+[0m14:42:11.938347 [debug] [Thread-1 (]: Finished running node analysis.dbt_course_practice.flights_by_aircraft
+[0m14:42:11.939678 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:42:11.940020 [debug] [MainThread]: Connection 'list_dwh_flight_intermediate_seeds' was properly closed.
+[0m14:42:11.940259 [debug] [MainThread]: Connection 'list_dwh_flight_snapshot' was properly closed.
+[0m14:42:11.940503 [debug] [MainThread]: Connection 'analysis.dbt_course_practice.flights_by_aircraft' was properly closed.
+[0m14:42:11.941407 [debug] [MainThread]: Command end result
+[0m14:42:11.968356 [debug] [MainThread]: Wrote artifact WritableManifest to D:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m14:42:11.970956 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m14:42:11.977622 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\dbt_ch_docker\dbt_course_practice\target\run_results.json
+[0m14:42:11.978471 [info ] [MainThread]: Compiled node 'flights_by_aircraft' is:
+  
+
+
+
+    
+
+
+SELECT 
+    
+    SUM(CASE WHEN aircraft_code = 'CN1' THEN 1 ELSE 0 END) as fligths_CN1,
+    SUM(CASE WHEN aircraft_code = 'CR2' THEN 1 ELSE 0 END) as fligths_CR2,
+    SUM(CASE WHEN aircraft_code = '763' THEN 1 ELSE 0 END) as fligths_763,
+    SUM(CASE WHEN aircraft_code = '773' THEN 1 ELSE 0 END) as fligths_773,
+    SUM(CASE WHEN aircraft_code = '319' THEN 1 ELSE 0 END) as fligths_319,
+    SUM(CASE WHEN aircraft_code = '733' THEN 1 ELSE 0 END) as fligths_733,
+    SUM(CASE WHEN aircraft_code = 'SU9' THEN 1 ELSE 0 END) as fligths_SU9,
+    SUM(CASE WHEN aircraft_code = '321' THEN 1 ELSE 0 END) as fligths_321
+FROM
+    "dwh_flight"."intermediate"."fct_flights"
+[0m14:42:11.980086 [debug] [MainThread]: Command `dbt compile` succeeded at 14:42:11.979894 after 2.38 seconds
+[0m14:42:11.980569 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42C2A3B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42DE0FCD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42DE0FAC0>]}
+[0m14:42:11.981035 [debug] [MainThread]: Flushing usage events
+[0m14:42:12.828019 [debug] [MainThread]: An error was encountered while trying to flush usage events
