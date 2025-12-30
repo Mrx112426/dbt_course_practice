@@ -12095,3 +12095,1352 @@ FROM
 [0m14:42:11.980569 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42C2A3B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42DE0FCD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D42DE0FAC0>]}
 [0m14:42:11.981035 [debug] [MainThread]: Flushing usage events
 [0m14:42:12.828019 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:42:34.860873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DF1074830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DF186CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DF1EA8E10>]}
+
+
+============================== 09:42:34.870189 | 9a637d6b-1430-4537-89c4-a508671060d5 ==============================
+[0m09:42:34.870189 [info ] [MainThread]: Running with dbt=1.10.17
+[0m09:42:34.871479 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt ', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'd:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m09:42:35.222343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9a637d6b-1430-4537-89c4-a508671060d5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DF12348A0>]}
+[0m09:42:35.276941 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:42:35.280235 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:42:35.282933 [debug] [MainThread]: Command `cli deps` succeeded at 09:42:35.282610 after 0.75 seconds
+[0m09:42:35.283794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DF1D53BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DF1D52BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018DF1D2BE50>]}
+[0m09:42:35.284628 [debug] [MainThread]: Flushing usage events
+[0m09:42:36.515711 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:44:32.300183 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE1EC84830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE1F47CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE1FAB4E10>]}
+
+
+============================== 09:44:32.303391 | 9d1c5e29-d8f8-45c5-8d2d-8ca594ec11bf ==============================
+[0m09:44:32.303391 [info ] [MainThread]: Running with dbt=1.10.17
+[0m09:44:32.303835 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt ', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'd:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m09:44:32.423629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9d1c5e29-d8f8-45c5-8d2d-8ca594ec11bf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE1EE3C8A0>]}
+[0m09:44:32.444069 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:44:32.445471 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m09:44:32.446666 [debug] [MainThread]: Command `cli deps` succeeded at 09:44:32.446474 after 0.26 seconds
+[0m09:44:32.447033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE1F963BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE1F962BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE1F93BE50>]}
+[0m09:44:32.447783 [debug] [MainThread]: Flushing usage events
+[0m09:44:33.630254 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:44:37.473104 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A8EAA74980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A8EB518B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A8EBB5FED0>]}
+
+
+============================== 09:44:37.476532 | 837e9b1c-ebc8-40df-bca8-08fe70845fc6 ==============================
+[0m09:44:37.476532 [info ] [MainThread]: Running with dbt=1.10.17
+[0m09:44:37.477151 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt docs serve', 'use_experimental_parser': 'False', 'log_path': 'D:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m09:44:37.616360 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '837e9b1c-ebc8-40df-bca8-08fe70845fc6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A8EAEDC9D0>]}
+[0m09:44:37.673588 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '837e9b1c-ebc8-40df-bca8-08fe70845fc6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A8EB9FEE00>]}
+[0m10:56:24.732838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205B36B4830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205B3EACB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205B44E8E10>]}
+
+
+============================== 10:56:24.749640 | 89c942c9-3c90-4309-8f0a-419d40e5fe39 ==============================
+[0m10:56:24.749640 [info ] [MainThread]: Running with dbt=1.10.17
+[0m10:56:24.753088 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt ', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'd:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m10:56:25.113850 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '89c942c9-3c90-4309-8f0a-419d40e5fe39', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205B38708A0>]}
+[0m10:56:25.166312 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:56:25.170329 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m10:56:25.173418 [debug] [MainThread]: Command `cli deps` succeeded at 10:56:25.173114 after 0.83 seconds
+[0m10:56:25.174220 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205B4393BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205B4392BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000205B436BE50>]}
+[0m10:56:25.175144 [debug] [MainThread]: Flushing usage events
+[0m10:56:26.616720 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:04:01.342806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BB8E84830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BB967CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BB9CB8E10>]}
+
+
+============================== 11:04:01.354167 | 1a8b3fbb-d6ec-4e4d-8910-c07220671a04 ==============================
+[0m11:04:01.354167 [info ] [MainThread]: Running with dbt=1.10.17
+[0m11:04:01.355561 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'invocation_command': 'dbt ', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'd:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m11:04:01.814678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1a8b3fbb-d6ec-4e4d-8910-c07220671a04', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BB90448A0>]}
+[0m11:04:01.967097 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1a8b3fbb-d6ec-4e4d-8910-c07220671a04', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BB9B63DF0>]}
+[0m11:04:01.969314 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m11:04:02.339681 [debug] [MainThread]: checksum: d79ec213886722eff96d2e8e477cf3cbc3050f244640e3a755ac2f787b514098, vars: {}, profile: , target: dev, version: 1.10.17
+[0m11:04:02.485214 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m11:04:02.485973 [debug] [MainThread]: previous checksum: d79ec213886722eff96d2e8e477cf3cbc3050f244640e3a755ac2f787b514098, current checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e
+[0m11:04:02.486427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1a8b3fbb-d6ec-4e4d-8910-c07220671a04', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BBB2E9550>]}
+[0m11:04:02.582222 [warn ] [MainThread]: [[33mWARNING[0m][UnexpectedJinjaBlockDeprecation]: Deprecated functionality
+Found unexpected 'endmacro' block tag. in file `macros\kopeck_to_ruble.sql`
+[0m11:04:02.582957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '1a8b3fbb-d6ec-4e4d-8910-c07220671a04', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BB9CDE990>]}
+[0m11:04:04.310245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1a8b3fbb-d6ec-4e4d-8910-c07220671a04', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BBAE37310>]}
+[0m11:04:04.422818 [debug] [MainThread]: Wrote artifact WritableManifest to d:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m11:04:04.462466 [debug] [MainThread]: Wrote artifact SemanticManifest to d:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m11:04:04.516390 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1a8b3fbb-d6ec-4e4d-8910-c07220671a04', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BBB91D7E0>]}
+[0m11:04:04.517772 [info ] [MainThread]: Found 14 models, 2 snapshots, 2 analyses, 1 seed, 5 data tests, 8 sources, 462 macros
+[0m11:04:04.520180 [info ] [MainThread]: 
+[0m11:04:04.520634 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m11:04:04.520927 [info ] [MainThread]: 
+[0m11:04:04.521431 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m11:04:04.523068 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight'
+[0m11:04:09.153641 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight"
+[0m11:04:09.154056 [debug] [ThreadPool]: On list_dwh_flight: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m11:04:09.154855 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:04:09.346107 [debug] [ThreadPool]: SQL status: SELECT 12 in 0.191 seconds
+[0m11:04:09.347432 [debug] [ThreadPool]: On list_dwh_flight: Close
+[0m11:04:09.358547 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight_intermediate'
+[0m11:04:09.363526 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate"
+[0m11:04:09.363898 [debug] [ThreadPool]: On list_dwh_flight_intermediate: BEGIN
+[0m11:04:09.364173 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:04:09.365989 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight_intermediate_seeds'
+[0m11:04:09.370354 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate_seeds"
+[0m11:04:09.371006 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: BEGIN
+[0m11:04:09.371448 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:04:09.473256 [debug] [ThreadPool]: SQL status: BEGIN in 0.109 seconds
+[0m11:04:09.473711 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate"
+[0m11:04:09.474001 [debug] [ThreadPool]: On list_dwh_flight_intermediate: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_intermediate"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'intermediate'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'intermediate'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'intermediate'
+  
+[0m11:04:09.479002 [debug] [ThreadPool]: SQL status: BEGIN in 0.107 seconds
+[0m11:04:09.479436 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate_seeds"
+[0m11:04:09.479711 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_intermediate_seeds"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'intermediate_seeds'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'intermediate_seeds'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'intermediate_seeds'
+  
+[0m11:04:09.616962 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.137 seconds
+[0m11:04:09.618955 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: ROLLBACK
+[0m11:04:09.619504 [debug] [ThreadPool]: SQL status: SELECT 16 in 0.145 seconds
+[0m11:04:09.620790 [debug] [ThreadPool]: On list_dwh_flight_intermediate: ROLLBACK
+[0m11:04:09.622181 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: Close
+[0m11:04:09.622822 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dwh_flight_intermediate_seeds, now list_dwh_flight_snapshot)
+[0m11:04:09.625327 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_snapshot"
+[0m11:04:09.625703 [debug] [ThreadPool]: On list_dwh_flight_intermediate: Close
+[0m11:04:09.626035 [debug] [ThreadPool]: On list_dwh_flight_snapshot: BEGIN
+[0m11:04:09.626383 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:04:09.735224 [debug] [ThreadPool]: SQL status: BEGIN in 0.109 seconds
+[0m11:04:09.736082 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_snapshot"
+[0m11:04:09.737237 [debug] [ThreadPool]: On list_dwh_flight_snapshot: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_snapshot"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'snapshot'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'snapshot'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'snapshot'
+  
+[0m11:04:09.876577 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.139 seconds
+[0m11:04:09.877883 [debug] [ThreadPool]: On list_dwh_flight_snapshot: ROLLBACK
+[0m11:04:09.880978 [debug] [ThreadPool]: On list_dwh_flight_snapshot: Close
+[0m11:04:09.887680 [debug] [MainThread]: Using postgres connection "master"
+[0m11:04:09.888067 [debug] [MainThread]: On master: BEGIN
+[0m11:04:09.888312 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:04:09.994085 [debug] [MainThread]: SQL status: BEGIN in 0.106 seconds
+[0m11:04:09.994492 [debug] [MainThread]: Using postgres connection "master"
+[0m11:04:09.994818 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m11:04:10.147126 [debug] [MainThread]: SQL status: SELECT 1 in 0.152 seconds
+[0m11:04:10.148591 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1a8b3fbb-d6ec-4e4d-8910-c07220671a04', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BBB960F50>]}
+[0m11:04:10.149019 [debug] [MainThread]: On master: ROLLBACK
+[0m11:04:10.151837 [debug] [MainThread]: Using postgres connection "master"
+[0m11:04:10.152225 [debug] [MainThread]: On master: BEGIN
+[0m11:04:10.153844 [debug] [MainThread]: SQL status: BEGIN in 0.001 seconds
+[0m11:04:10.154180 [debug] [MainThread]: On master: COMMIT
+[0m11:04:10.154431 [debug] [MainThread]: Using postgres connection "master"
+[0m11:04:10.154646 [debug] [MainThread]: On master: COMMIT
+[0m11:04:10.156094 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m11:04:10.156416 [debug] [MainThread]: On master: Close
+[0m11:04:10.164664 [debug] [Thread-1 (]: Began running node model.dbt_course_practice.fct_bookings.v1
+[0m11:04:10.165238 [info ] [Thread-1 (]: 1 of 4 START sql table model intermediate.fct_bookings_v1 ...................... [RUN]
+[0m11:04:10.166811 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.dbt_course_practice.fct_bookings.v1'
+[0m11:04:10.168941 [debug] [Thread-1 (]: Began compiling node model.dbt_course_practice.fct_bookings.v1
+[0m11:04:10.177260 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_course_practice.fct_bookings.v1"
+[0m11:04:10.178323 [debug] [Thread-1 (]: Began executing node model.dbt_course_practice.fct_bookings.v1
+[0m11:04:10.233635 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:04:10.234191 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_bookings.v1"} */
+select * from (
+        
+select 
+    book_ref,
+	book_date,
+	total_amount
+from "dwh_flight"."intermediate"."stg_flights__bookings"
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+[0m11:04:10.234550 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:04:10.375997 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.141 seconds
+[0m11:04:10.387693 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:04:10.388173 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_bookings.v1"} */
+select * from (
+        select
+    
+      
+    cast(null as varchar(8))
+ as book_ref, 
+      
+    cast(null as timestamptz)
+ as book_date, 
+      
+    cast(null as numeric(10, 2))
+ as total_amount
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+[0m11:04:10.400379 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.012 seconds
+[0m11:04:10.425696 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_course_practice.fct_bookings.v1"
+[0m11:04:10.426670 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:04:10.427049 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: BEGIN
+[0m11:04:10.430089 [debug] [Thread-1 (]: SQL status: BEGIN in 0.003 seconds
+[0m11:04:10.430485 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:04:10.430807 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_bookings.v1"} */
+
+  
+    
+
+  create  table "dwh_flight"."intermediate"."fct_bookings_v1__dbt_tmp"
+  
+  
+    
+  
+  (
+    book_ref varchar(8) not null,
+    book_date timestamptz,
+    total_amount numeric(10, 2) check (total_amount > 0)
+    
+    )
+ ;
+    insert into "dwh_flight"."intermediate"."fct_bookings_v1__dbt_tmp" (
+      book_ref, book_date, total_amount
+    )
+  
+  (
+    
+    select book_ref, book_date, total_amount
+    from (
+        
+select 
+    book_ref,
+	book_date,
+	total_amount
+from "dwh_flight"."intermediate"."stg_flights__bookings"
+    ) as model_subq
+  );
+  
+[0m11:04:16.697792 [debug] [Thread-1 (]: SQL status: INSERT 0 593433 in 6.266 seconds
+[0m11:04:16.725763 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:04:16.727559 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_bookings.v1"} */
+alter table "dwh_flight"."intermediate"."fct_bookings_v1" rename to "fct_bookings_v1__dbt_backup"
+[0m11:04:16.735420 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.007 seconds
+[0m11:04:16.743974 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:04:16.745450 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_bookings.v1"} */
+alter table "dwh_flight"."intermediate"."fct_bookings_v1__dbt_tmp" rename to "fct_bookings_v1"
+[0m11:04:16.749805 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.003 seconds
+[0m11:04:16.808223 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: COMMIT
+[0m11:04:16.809880 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:04:16.810920 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: COMMIT
+[0m11:04:16.829267 [debug] [Thread-1 (]: SQL status: COMMIT in 0.017 seconds
+[0m11:04:16.848032 [debug] [Thread-1 (]: Applying DROP to: "dwh_flight"."intermediate"."fct_bookings_v1__dbt_backup"
+[0m11:04:16.866175 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:04:16.869534 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_bookings.v1"} */
+drop table if exists "dwh_flight"."intermediate"."fct_bookings_v1__dbt_backup" cascade
+[0m11:04:16.895465 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.024 seconds
+[0m11:04:16.903270 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: Close
+[0m11:04:16.910761 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '1a8b3fbb-d6ec-4e4d-8910-c07220671a04', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BBBD48310>]}
+[0m11:04:16.914294 [info ] [Thread-1 (]: 1 of 4 OK created sql table model intermediate.fct_bookings_v1 ................. [[32mINSERT 0 593433[0m in 6.74s]
+[0m11:04:16.918442 [debug] [Thread-1 (]: Finished running node model.dbt_course_practice.fct_bookings.v1
+[0m11:04:16.920727 [debug] [Thread-1 (]: Began running node test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496
+[0m11:04:16.921694 [debug] [Thread-2 (]: Began running node test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754
+[0m11:04:16.922978 [info ] [Thread-1 (]: 3 of 4 START test not_null_fct_bookings_v1_total_amount ........................ [RUN]
+[0m11:04:16.925196 [info ] [Thread-2 (]: 2 of 4 START test not_null_fct_bookings_v1_book_ref ............................ [RUN]
+[0m11:04:16.927283 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_course_practice.fct_bookings.v1, now test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496)
+[0m11:04:16.928882 [debug] [Thread-2 (]: Acquiring new postgres connection 'test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754'
+[0m11:04:16.929839 [debug] [Thread-1 (]: Began compiling node test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496
+[0m11:04:16.930804 [debug] [Thread-2 (]: Began compiling node test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754
+[0m11:04:16.981947 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"
+[0m11:04:16.983376 [debug] [Thread-2 (]: Writing injected SQL for node "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"
+[0m11:04:16.986478 [debug] [Thread-2 (]: Began executing node test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754
+[0m11:04:17.022255 [debug] [Thread-1 (]: Began executing node test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496
+[0m11:04:17.042586 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"
+[0m11:04:17.047331 [debug] [Thread-2 (]: Writing runtime sql for node "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"
+[0m11:04:17.050248 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"
+[0m11:04:17.051741 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"
+[0m11:04:17.052740 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754: BEGIN
+[0m11:04:17.053632 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496: BEGIN
+[0m11:04:17.054461 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m11:04:17.055414 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m11:04:17.178457 [debug] [Thread-1 (]: SQL status: BEGIN in 0.123 seconds
+[0m11:04:17.179406 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"
+[0m11:04:17.180377 [debug] [Thread-2 (]: SQL status: BEGIN in 0.126 seconds
+[0m11:04:17.181378 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select total_amount
+from "dwh_flight"."intermediate"."fct_bookings_v1"
+where total_amount is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m11:04:17.182426 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"
+[0m11:04:17.183770 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select book_ref
+from "dwh_flight"."intermediate"."fct_bookings_v1"
+where book_ref is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m11:04:17.252886 [debug] [Thread-2 (]: SQL status: SELECT 1 in 0.068 seconds
+[0m11:04:17.262344 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754: ROLLBACK
+[0m11:04:17.267230 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754: Close
+[0m11:04:17.270402 [info ] [Thread-2 (]: 2 of 4 PASS not_null_fct_bookings_v1_book_ref .................................. [[32mPASS[0m in 0.34s]
+[0m11:04:17.272701 [debug] [Thread-2 (]: Finished running node test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754
+[0m11:04:17.274212 [debug] [Thread-2 (]: Began running node test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623
+[0m11:04:17.275332 [info ] [Thread-2 (]: 4 of 4 START test unique_fct_bookings_v1_book_ref .............................. [RUN]
+[0m11:04:17.276628 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754, now test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623)
+[0m11:04:17.278268 [debug] [Thread-2 (]: Began compiling node test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623
+[0m11:04:17.294615 [debug] [Thread-2 (]: Writing injected SQL for node "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"
+[0m11:04:17.296649 [debug] [Thread-2 (]: Began executing node test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623
+[0m11:04:17.303857 [debug] [Thread-2 (]: Writing runtime sql for node "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"
+[0m11:04:17.306514 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"
+[0m11:04:17.307745 [debug] [Thread-2 (]: On test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623: BEGIN
+[0m11:04:17.309003 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m11:04:17.519058 [debug] [Thread-2 (]: SQL status: BEGIN in 0.210 seconds
+[0m11:04:17.520082 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"
+[0m11:04:17.521243 [debug] [Thread-2 (]: On test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    book_ref as unique_field,
+    count(*) as n_records
+
+from "dwh_flight"."intermediate"."fct_bookings_v1"
+where book_ref is not null
+group by book_ref
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m11:04:17.588299 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.405 seconds
+[0m11:04:17.592262 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496: ROLLBACK
+[0m11:04:17.596246 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496: Close
+[0m11:04:17.597804 [info ] [Thread-1 (]: 3 of 4 PASS not_null_fct_bookings_v1_total_amount .............................. [[32mPASS[0m in 0.67s]
+[0m11:04:17.599836 [debug] [Thread-1 (]: Finished running node test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496
+[0m11:04:27.089555 [debug] [Thread-2 (]: SQL status: SELECT 1 in 9.567 seconds
+[0m11:04:27.092853 [debug] [Thread-2 (]: On test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623: ROLLBACK
+[0m11:04:27.096448 [debug] [Thread-2 (]: On test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623: Close
+[0m11:04:27.098028 [info ] [Thread-2 (]: 4 of 4 PASS unique_fct_bookings_v1_book_ref .................................... [[32mPASS[0m in 9.82s]
+[0m11:04:27.100764 [debug] [Thread-2 (]: Finished running node test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623
+[0m11:04:27.104125 [debug] [MainThread]: Using postgres connection "master"
+[0m11:04:27.105111 [debug] [MainThread]: On master: BEGIN
+[0m11:04:27.105930 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m11:04:27.231648 [debug] [MainThread]: SQL status: BEGIN in 0.126 seconds
+[0m11:04:27.232708 [debug] [MainThread]: On master: COMMIT
+[0m11:04:27.233965 [debug] [MainThread]: Using postgres connection "master"
+[0m11:04:27.235142 [debug] [MainThread]: On master: COMMIT
+[0m11:04:27.238022 [debug] [MainThread]: SQL status: COMMIT in 0.002 seconds
+[0m11:04:27.238818 [debug] [MainThread]: On master: Close
+[0m11:04:27.240416 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:04:27.241212 [debug] [MainThread]: Connection 'list_dwh_flight' was properly closed.
+[0m11:04:27.242085 [debug] [MainThread]: Connection 'list_dwh_flight_intermediate' was properly closed.
+[0m11:04:27.242935 [debug] [MainThread]: Connection 'list_dwh_flight_snapshot' was properly closed.
+[0m11:04:27.243630 [debug] [MainThread]: Connection 'test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496' was properly closed.
+[0m11:04:27.244342 [debug] [MainThread]: Connection 'test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623' was properly closed.
+[0m11:04:27.245173 [info ] [MainThread]: 
+[0m11:04:27.246129 [info ] [MainThread]: Finished running 1 table model, 3 data tests in 0 hours 0 minutes and 22.72 seconds (22.72s).
+[0m11:04:27.253228 [debug] [MainThread]: Command end result
+[0m11:04:27.333868 [debug] [MainThread]: Wrote artifact WritableManifest to d:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m11:04:27.341409 [debug] [MainThread]: Wrote artifact SemanticManifest to d:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m11:04:27.358477 [debug] [MainThread]: Wrote artifact RunExecutionResult to d:\dbt_ch_docker\dbt_course_practice\target\run_results.json
+[0m11:04:27.359742 [info ] [MainThread]: 
+[0m11:04:27.360774 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:04:27.361921 [info ] [MainThread]: 
+[0m11:04:27.363170 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m11:04:27.364793 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- UnexpectedJinjaBlockDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m11:04:27.370239 [debug] [MainThread]: Command `cli build` succeeded at 11:04:27.369767 after 26.48 seconds
+[0m11:04:27.371483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BBBD39270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BBB93FA40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BBB52A950>]}
+[0m11:04:27.372576 [debug] [MainThread]: Flushing usage events
+[0m11:04:28.654474 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:05:23.697212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022831B34830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002283232CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022832968E10>]}
+
+
+============================== 11:05:23.702390 | 1beae592-01f3-45f1-bd79-770c4036912b ==============================
+[0m11:05:23.702390 [info ] [MainThread]: Running with dbt=1.10.17
+[0m11:05:23.702964 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt ', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'd:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m11:05:23.913199 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1beae592-01f3-45f1-bd79-770c4036912b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022831CF08A0>]}
+[0m11:05:23.978870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1beae592-01f3-45f1-bd79-770c4036912b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022832813DF0>]}
+[0m11:05:23.980179 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m11:05:24.145697 [debug] [MainThread]: checksum: d79ec213886722eff96d2e8e477cf3cbc3050f244640e3a755ac2f787b514098, vars: {}, profile: , target: dev, version: 1.10.17
+[0m11:05:24.292571 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m11:05:24.293133 [debug] [MainThread]: previous checksum: d79ec213886722eff96d2e8e477cf3cbc3050f244640e3a755ac2f787b514098, current checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e
+[0m11:05:24.293452 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1beae592-01f3-45f1-bd79-770c4036912b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022833F8D550>]}
+[0m11:05:26.034227 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1beae592-01f3-45f1-bd79-770c4036912b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022833E9AD50>]}
+[0m11:05:26.200309 [debug] [MainThread]: Wrote artifact WritableManifest to d:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m11:05:26.203035 [debug] [MainThread]: Wrote artifact SemanticManifest to d:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m11:05:26.235606 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1beae592-01f3-45f1-bd79-770c4036912b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022833F45FD0>]}
+[0m11:05:26.236227 [info ] [MainThread]: Found 14 models, 2 snapshots, 2 analyses, 1 seed, 5 data tests, 8 sources, 463 macros
+[0m11:05:26.236621 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1beae592-01f3-45f1-bd79-770c4036912b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228345BA8F0>]}
+[0m11:05:26.237357 [warn ] [MainThread]: The selection criterion 'kopeck_to_ruble' does not match any enabled nodes
+[0m11:05:26.238711 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m11:05:26.239488 [debug] [MainThread]: Command end result
+[0m11:05:26.260310 [debug] [MainThread]: Wrote artifact WritableManifest to d:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m11:05:26.262650 [debug] [MainThread]: Wrote artifact SemanticManifest to d:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m11:05:26.265841 [debug] [MainThread]: Wrote artifact RunExecutionResult to d:\dbt_ch_docker\dbt_course_practice\target\run_results.json
+[0m11:05:26.266960 [debug] [MainThread]: Command `cli test` succeeded at 11:05:26.266826 after 2.90 seconds
+[0m11:05:26.267357 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228326CFB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228345FEC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228345FEBA0>]}
+[0m11:05:26.267731 [debug] [MainThread]: Flushing usage events
+[0m11:05:27.123501 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:05:54.030257 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBE1804830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBE1FFCB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBE2638E10>]}
+
+
+============================== 11:05:54.040010 | 6d424aaa-2817-4226-a3ff-2977e9231ef9 ==============================
+[0m11:05:54.040010 [info ] [MainThread]: Running with dbt=1.10.17
+[0m11:05:54.051826 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt ', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'd:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m11:05:54.640993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6d424aaa-2817-4226-a3ff-2977e9231ef9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBE19C08A0>]}
+[0m11:05:54.833472 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6d424aaa-2817-4226-a3ff-2977e9231ef9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBE24E3DF0>]}
+[0m11:05:54.836968 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m11:05:55.472353 [debug] [MainThread]: checksum: d79ec213886722eff96d2e8e477cf3cbc3050f244640e3a755ac2f787b514098, vars: {}, profile: , target: dev, version: 1.10.17
+[0m11:05:55.846875 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m11:05:55.847999 [debug] [MainThread]: previous checksum: d79ec213886722eff96d2e8e477cf3cbc3050f244640e3a755ac2f787b514098, current checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e
+[0m11:05:55.849490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '6d424aaa-2817-4226-a3ff-2977e9231ef9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBE3D01550>]}
+[0m11:05:59.967948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6d424aaa-2817-4226-a3ff-2977e9231ef9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBE3FA6D50>]}
+[0m11:06:00.072327 [debug] [MainThread]: Wrote artifact WritableManifest to d:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m11:06:00.074693 [debug] [MainThread]: Wrote artifact SemanticManifest to d:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m11:06:00.114359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6d424aaa-2817-4226-a3ff-2977e9231ef9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBE4287850>]}
+[0m11:06:00.114853 [info ] [MainThread]: Found 14 models, 2 snapshots, 2 analyses, 1 seed, 5 data tests, 8 sources, 463 macros
+[0m11:06:00.116937 [info ] [MainThread]: 
+[0m11:06:00.117343 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m11:06:00.117617 [info ] [MainThread]: 
+[0m11:06:00.118160 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m11:06:00.119356 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight'
+[0m11:06:00.170285 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight"
+[0m11:06:00.170708 [debug] [ThreadPool]: On list_dwh_flight: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m11:06:00.170975 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:06:00.334751 [debug] [ThreadPool]: SQL status: SELECT 12 in 0.164 seconds
+[0m11:06:00.336038 [debug] [ThreadPool]: On list_dwh_flight: Close
+[0m11:06:00.344349 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight_snapshot'
+[0m11:06:00.351735 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight_intermediate_seeds'
+[0m11:06:00.352925 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_snapshot"
+[0m11:06:00.354928 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate_seeds"
+[0m11:06:00.355395 [debug] [ThreadPool]: On list_dwh_flight_snapshot: BEGIN
+[0m11:06:00.355797 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: BEGIN
+[0m11:06:00.356273 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:06:00.356663 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:06:00.464073 [debug] [ThreadPool]: SQL status: BEGIN in 0.108 seconds
+[0m11:06:00.464493 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_snapshot"
+[0m11:06:00.464789 [debug] [ThreadPool]: On list_dwh_flight_snapshot: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_snapshot"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'snapshot'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'snapshot'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'snapshot'
+  
+[0m11:06:00.467382 [debug] [ThreadPool]: SQL status: BEGIN in 0.111 seconds
+[0m11:06:00.467738 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate_seeds"
+[0m11:06:00.468003 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_intermediate_seeds"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'intermediate_seeds'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'intermediate_seeds'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'intermediate_seeds'
+  
+[0m11:06:00.597899 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.133 seconds
+[0m11:06:00.599945 [debug] [ThreadPool]: On list_dwh_flight_snapshot: ROLLBACK
+[0m11:06:00.600405 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.132 seconds
+[0m11:06:00.601539 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: ROLLBACK
+[0m11:06:00.603201 [debug] [ThreadPool]: On list_dwh_flight_snapshot: Close
+[0m11:06:00.603856 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dwh_flight_snapshot, now list_dwh_flight_intermediate)
+[0m11:06:00.606052 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate"
+[0m11:06:00.606396 [debug] [ThreadPool]: On list_dwh_flight_intermediate: BEGIN
+[0m11:06:00.606668 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:06:00.607086 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: Close
+[0m11:06:00.748549 [debug] [ThreadPool]: SQL status: BEGIN in 0.142 seconds
+[0m11:06:00.748961 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate"
+[0m11:06:00.749252 [debug] [ThreadPool]: On list_dwh_flight_intermediate: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_intermediate"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'intermediate'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'intermediate'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'intermediate'
+  
+[0m11:06:00.881072 [debug] [ThreadPool]: SQL status: SELECT 16 in 0.131 seconds
+[0m11:06:00.882635 [debug] [ThreadPool]: On list_dwh_flight_intermediate: ROLLBACK
+[0m11:06:00.885723 [debug] [ThreadPool]: On list_dwh_flight_intermediate: Close
+[0m11:06:00.894850 [debug] [MainThread]: Using postgres connection "master"
+[0m11:06:00.895378 [debug] [MainThread]: On master: BEGIN
+[0m11:06:00.895622 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:06:01.018832 [debug] [MainThread]: SQL status: BEGIN in 0.123 seconds
+[0m11:06:01.019235 [debug] [MainThread]: Using postgres connection "master"
+[0m11:06:01.019544 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m11:06:01.151360 [debug] [MainThread]: SQL status: SELECT 1 in 0.131 seconds
+[0m11:06:01.152762 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6d424aaa-2817-4226-a3ff-2977e9231ef9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBE461D640>]}
+[0m11:06:01.153186 [debug] [MainThread]: On master: ROLLBACK
+[0m11:06:01.155965 [debug] [MainThread]: Using postgres connection "master"
+[0m11:06:01.156282 [debug] [MainThread]: On master: BEGIN
+[0m11:06:01.158155 [debug] [MainThread]: SQL status: BEGIN in 0.002 seconds
+[0m11:06:01.158476 [debug] [MainThread]: On master: COMMIT
+[0m11:06:01.158723 [debug] [MainThread]: Using postgres connection "master"
+[0m11:06:01.158935 [debug] [MainThread]: On master: COMMIT
+[0m11:06:01.159951 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m11:06:01.160276 [debug] [MainThread]: On master: Close
+[0m11:06:01.164758 [debug] [Thread-1 (]: Began running node model.dbt_course_practice.fct_bookings.v1
+[0m11:06:01.165343 [info ] [Thread-1 (]: 1 of 4 START sql table model intermediate.fct_bookings_v1 ...................... [RUN]
+[0m11:06:01.165894 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.dbt_course_practice.fct_bookings.v1'
+[0m11:06:01.166220 [debug] [Thread-1 (]: Began compiling node model.dbt_course_practice.fct_bookings.v1
+[0m11:06:01.172874 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_course_practice.fct_bookings.v1"
+[0m11:06:01.173680 [debug] [Thread-1 (]: Began executing node model.dbt_course_practice.fct_bookings.v1
+[0m11:06:01.228226 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:06:01.229147 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_bookings.v1"} */
+select * from (
+        
+select 
+    book_ref,
+	book_date,
+	total_amount
+from "dwh_flight"."intermediate"."stg_flights__bookings"
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+[0m11:06:01.229807 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:06:01.375288 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.145 seconds
+[0m11:06:01.385925 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:06:01.386428 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_bookings.v1"} */
+select * from (
+        select
+    
+      
+    cast(null as varchar(8))
+ as book_ref, 
+      
+    cast(null as timestamptz)
+ as book_date, 
+      
+    cast(null as numeric(10, 2))
+ as total_amount
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+[0m11:06:01.396113 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.009 seconds
+[0m11:06:01.418385 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_course_practice.fct_bookings.v1"
+[0m11:06:01.419335 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:06:01.419729 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: BEGIN
+[0m11:06:01.422243 [debug] [Thread-1 (]: SQL status: BEGIN in 0.002 seconds
+[0m11:06:01.422651 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:06:01.422975 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_bookings.v1"} */
+
+  
+    
+
+  create  table "dwh_flight"."intermediate"."fct_bookings_v1__dbt_tmp"
+  
+  
+    
+  
+  (
+    book_ref varchar(8) not null,
+    book_date timestamptz,
+    total_amount numeric(10, 2) check (total_amount > 0)
+    
+    )
+ ;
+    insert into "dwh_flight"."intermediate"."fct_bookings_v1__dbt_tmp" (
+      book_ref, book_date, total_amount
+    )
+  
+  (
+    
+    select book_ref, book_date, total_amount
+    from (
+        
+select 
+    book_ref,
+	book_date,
+	total_amount
+from "dwh_flight"."intermediate"."stg_flights__bookings"
+    ) as model_subq
+  );
+  
+[0m11:06:07.009981 [debug] [Thread-1 (]: SQL status: INSERT 0 593433 in 5.587 seconds
+[0m11:06:07.018912 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:06:07.019335 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_bookings.v1"} */
+alter table "dwh_flight"."intermediate"."fct_bookings_v1" rename to "fct_bookings_v1__dbt_backup"
+[0m11:06:07.024625 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.005 seconds
+[0m11:06:07.027130 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:06:07.027570 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_bookings.v1"} */
+alter table "dwh_flight"."intermediate"."fct_bookings_v1__dbt_tmp" rename to "fct_bookings_v1"
+[0m11:06:07.030775 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.003 seconds
+[0m11:06:07.046500 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: COMMIT
+[0m11:06:07.047006 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:06:07.047332 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: COMMIT
+[0m11:06:07.057268 [debug] [Thread-1 (]: SQL status: COMMIT in 0.010 seconds
+[0m11:06:07.062999 [debug] [Thread-1 (]: Applying DROP to: "dwh_flight"."intermediate"."fct_bookings_v1__dbt_backup"
+[0m11:06:07.067150 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_bookings.v1"
+[0m11:06:07.067538 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_bookings.v1"} */
+drop table if exists "dwh_flight"."intermediate"."fct_bookings_v1__dbt_backup" cascade
+[0m11:06:07.090369 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.022 seconds
+[0m11:06:07.092881 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_bookings.v1: Close
+[0m11:06:07.096309 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6d424aaa-2817-4226-a3ff-2977e9231ef9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBE43D0DD0>]}
+[0m11:06:07.097058 [info ] [Thread-1 (]: 1 of 4 OK created sql table model intermediate.fct_bookings_v1 ................. [[32mINSERT 0 593433[0m in 5.93s]
+[0m11:06:07.097672 [debug] [Thread-1 (]: Finished running node model.dbt_course_practice.fct_bookings.v1
+[0m11:06:07.098849 [debug] [Thread-1 (]: Began running node test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496
+[0m11:06:07.099246 [info ] [Thread-1 (]: 3 of 4 START test not_null_fct_bookings_v1_total_amount ........................ [RUN]
+[0m11:06:07.099725 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_course_practice.fct_bookings.v1, now test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496)
+[0m11:06:07.100544 [debug] [Thread-2 (]: Began running node test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754
+[0m11:06:07.101288 [debug] [Thread-1 (]: Began compiling node test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496
+[0m11:06:07.101835 [info ] [Thread-2 (]: 2 of 4 START test not_null_fct_bookings_v1_book_ref ............................ [RUN]
+[0m11:06:07.112709 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"
+[0m11:06:07.113683 [debug] [Thread-2 (]: Acquiring new postgres connection 'test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754'
+[0m11:06:07.115021 [debug] [Thread-2 (]: Began compiling node test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754
+[0m11:06:07.119850 [debug] [Thread-2 (]: Writing injected SQL for node "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"
+[0m11:06:07.120660 [debug] [Thread-1 (]: Began executing node test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496
+[0m11:06:07.136731 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"
+[0m11:06:07.137437 [debug] [Thread-2 (]: Began executing node test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754
+[0m11:06:07.139322 [debug] [Thread-2 (]: Writing runtime sql for node "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"
+[0m11:06:07.140556 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"
+[0m11:06:07.140917 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754: BEGIN
+[0m11:06:07.141294 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"
+[0m11:06:07.141805 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m11:06:07.142655 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496: BEGIN
+[0m11:06:07.143841 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m11:06:07.260265 [debug] [Thread-2 (]: SQL status: BEGIN in 0.118 seconds
+[0m11:06:07.260715 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"
+[0m11:06:07.261034 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select book_ref
+from "dwh_flight"."intermediate"."fct_bookings_v1"
+where book_ref is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m11:06:07.284696 [debug] [Thread-1 (]: SQL status: BEGIN in 0.141 seconds
+[0m11:06:07.285257 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"
+[0m11:06:07.285613 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select total_amount
+from "dwh_flight"."intermediate"."fct_bookings_v1"
+where total_amount is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m11:06:07.307603 [debug] [Thread-2 (]: SQL status: SELECT 1 in 0.046 seconds
+[0m11:06:07.311745 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754: ROLLBACK
+[0m11:06:07.314658 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754: Close
+[0m11:06:07.315672 [info ] [Thread-2 (]: 2 of 4 PASS not_null_fct_bookings_v1_book_ref .................................. [[32mPASS[0m in 0.20s]
+[0m11:06:07.316401 [debug] [Thread-2 (]: Finished running node test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754
+[0m11:06:07.316790 [debug] [Thread-2 (]: Began running node test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623
+[0m11:06:07.317199 [info ] [Thread-2 (]: 4 of 4 START test unique_fct_bookings_v1_book_ref .............................. [RUN]
+[0m11:06:07.317963 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754, now test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623)
+[0m11:06:07.318450 [debug] [Thread-2 (]: Began compiling node test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623
+[0m11:06:07.323702 [debug] [Thread-2 (]: Writing injected SQL for node "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"
+[0m11:06:07.324511 [debug] [Thread-2 (]: Began executing node test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623
+[0m11:06:07.327451 [debug] [Thread-2 (]: Writing runtime sql for node "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"
+[0m11:06:07.328463 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"
+[0m11:06:07.328856 [debug] [Thread-2 (]: On test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623: BEGIN
+[0m11:06:07.329180 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m11:06:07.438306 [debug] [Thread-2 (]: SQL status: BEGIN in 0.109 seconds
+[0m11:06:07.439130 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"
+[0m11:06:07.439929 [debug] [Thread-2 (]: On test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    book_ref as unique_field,
+    count(*) as n_records
+
+from "dwh_flight"."intermediate"."fct_bookings_v1"
+where book_ref is not null
+group by book_ref
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m11:06:07.688142 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.402 seconds
+[0m11:06:07.691013 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496: ROLLBACK
+[0m11:06:07.695440 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496: Close
+[0m11:06:07.696658 [info ] [Thread-1 (]: 3 of 4 PASS not_null_fct_bookings_v1_total_amount .............................. [[32mPASS[0m in 0.60s]
+[0m11:06:07.697593 [debug] [Thread-1 (]: Finished running node test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496
+[0m11:06:16.133689 [debug] [Thread-2 (]: SQL status: SELECT 1 in 8.693 seconds
+[0m11:06:16.135352 [debug] [Thread-2 (]: On test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623: ROLLBACK
+[0m11:06:16.138616 [debug] [Thread-2 (]: On test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623: Close
+[0m11:06:16.139598 [info ] [Thread-2 (]: 4 of 4 PASS unique_fct_bookings_v1_book_ref .................................... [[32mPASS[0m in 8.82s]
+[0m11:06:16.140543 [debug] [Thread-2 (]: Finished running node test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623
+[0m11:06:16.142688 [debug] [MainThread]: Using postgres connection "master"
+[0m11:06:16.143620 [debug] [MainThread]: On master: BEGIN
+[0m11:06:16.144228 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m11:06:16.266451 [debug] [MainThread]: SQL status: BEGIN in 0.122 seconds
+[0m11:06:16.266920 [debug] [MainThread]: On master: COMMIT
+[0m11:06:16.267209 [debug] [MainThread]: Using postgres connection "master"
+[0m11:06:16.267441 [debug] [MainThread]: On master: COMMIT
+[0m11:06:16.268585 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m11:06:16.268929 [debug] [MainThread]: On master: Close
+[0m11:06:16.269388 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:06:16.269663 [debug] [MainThread]: Connection 'list_dwh_flight' was properly closed.
+[0m11:06:16.270046 [debug] [MainThread]: Connection 'list_dwh_flight_intermediate' was properly closed.
+[0m11:06:16.270291 [debug] [MainThread]: Connection 'list_dwh_flight_intermediate_seeds' was properly closed.
+[0m11:06:16.270499 [debug] [MainThread]: Connection 'test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496' was properly closed.
+[0m11:06:16.270691 [debug] [MainThread]: Connection 'test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623' was properly closed.
+[0m11:06:16.270966 [info ] [MainThread]: 
+[0m11:06:16.271269 [info ] [MainThread]: Finished running 1 table model, 3 data tests in 0 hours 0 minutes and 16.15 seconds (16.15s).
+[0m11:06:16.272321 [debug] [MainThread]: Command end result
+[0m11:06:16.296719 [debug] [MainThread]: Wrote artifact WritableManifest to d:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m11:06:16.300007 [debug] [MainThread]: Wrote artifact SemanticManifest to d:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m11:06:16.305986 [debug] [MainThread]: Wrote artifact RunExecutionResult to d:\dbt_ch_docker\dbt_course_practice\target\run_results.json
+[0m11:06:16.306336 [info ] [MainThread]: 
+[0m11:06:16.306807 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:06:16.307255 [info ] [MainThread]: 
+[0m11:06:16.307553 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m11:06:16.308442 [debug] [MainThread]: Command `cli build` succeeded at 11:06:16.308310 after 22.66 seconds
+[0m11:06:16.308813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBE43699C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBE4B22710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBE4B23390>]}
+[0m11:06:16.309444 [debug] [MainThread]: Flushing usage events
+[0m11:06:17.220875 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:06:34.808772 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D57A54830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D5824CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D58888E10>]}
+
+
+============================== 11:06:34.812878 | b4fa0a88-79b7-4155-86b4-573955ddd5e7 ==============================
+[0m11:06:34.812878 [info ] [MainThread]: Running with dbt=1.10.17
+[0m11:06:34.813431 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'invocation_command': 'dbt ', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'd:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m11:06:34.982160 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b4fa0a88-79b7-4155-86b4-573955ddd5e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D57C108A0>]}
+[0m11:06:35.043095 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b4fa0a88-79b7-4155-86b4-573955ddd5e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D58733DF0>]}
+[0m11:06:35.044161 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m11:06:35.202664 [debug] [MainThread]: checksum: d79ec213886722eff96d2e8e477cf3cbc3050f244640e3a755ac2f787b514098, vars: {}, profile: , target: dev, version: 1.10.17
+[0m11:06:35.338058 [info ] [MainThread]: Unable to do partial parsing because config vars, config profile, or config target have changed
+[0m11:06:35.338503 [debug] [MainThread]: previous checksum: d79ec213886722eff96d2e8e477cf3cbc3050f244640e3a755ac2f787b514098, current checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e
+[0m11:06:35.338827 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b4fa0a88-79b7-4155-86b4-573955ddd5e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D59EB1550>]}
+[0m11:06:37.071706 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b4fa0a88-79b7-4155-86b4-573955ddd5e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D59DBAD50>]}
+[0m11:06:37.180863 [debug] [MainThread]: Wrote artifact WritableManifest to d:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m11:06:37.183325 [debug] [MainThread]: Wrote artifact SemanticManifest to d:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m11:06:37.214326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b4fa0a88-79b7-4155-86b4-573955ddd5e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D5888E190>]}
+[0m11:06:37.214817 [info ] [MainThread]: Found 14 models, 2 snapshots, 2 analyses, 1 seed, 5 data tests, 8 sources, 463 macros
+[0m11:06:37.215195 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b4fa0a88-79b7-4155-86b4-573955ddd5e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D5A4F3930>]}
+[0m11:06:37.217163 [info ] [MainThread]: 
+[0m11:06:37.217571 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m11:06:37.217859 [info ] [MainThread]: 
+[0m11:06:37.218636 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m11:06:37.223348 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight_snapshot'
+[0m11:06:37.229325 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight_intermediate'
+[0m11:06:37.275807 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_snapshot"
+[0m11:06:37.276309 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate"
+[0m11:06:37.276790 [debug] [ThreadPool]: On list_dwh_flight_snapshot: BEGIN
+[0m11:06:37.277173 [debug] [ThreadPool]: On list_dwh_flight_intermediate: BEGIN
+[0m11:06:37.277587 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:06:37.278150 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:06:37.389231 [debug] [ThreadPool]: SQL status: BEGIN in 0.111 seconds
+[0m11:06:37.389699 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate"
+[0m11:06:37.390013 [debug] [ThreadPool]: On list_dwh_flight_intermediate: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_intermediate"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'intermediate'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'intermediate'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'intermediate'
+  
+[0m11:06:37.390392 [debug] [ThreadPool]: SQL status: BEGIN in 0.113 seconds
+[0m11:06:37.390727 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_snapshot"
+[0m11:06:37.391294 [debug] [ThreadPool]: On list_dwh_flight_snapshot: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_snapshot"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'snapshot'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'snapshot'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'snapshot'
+  
+[0m11:06:37.525456 [debug] [ThreadPool]: SQL status: SELECT 16 in 0.135 seconds
+[0m11:06:37.527071 [debug] [ThreadPool]: On list_dwh_flight_intermediate: ROLLBACK
+[0m11:06:37.527719 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.136 seconds
+[0m11:06:37.528874 [debug] [ThreadPool]: On list_dwh_flight_snapshot: ROLLBACK
+[0m11:06:37.530196 [debug] [ThreadPool]: On list_dwh_flight_intermediate: Close
+[0m11:06:37.531361 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dwh_flight_intermediate, now list_dwh_flight_intermediate_seeds)
+[0m11:06:37.535491 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate_seeds"
+[0m11:06:37.535849 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: BEGIN
+[0m11:06:37.536113 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:06:37.536590 [debug] [ThreadPool]: On list_dwh_flight_snapshot: Close
+[0m11:06:37.633072 [debug] [ThreadPool]: SQL status: BEGIN in 0.097 seconds
+[0m11:06:37.633469 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate_seeds"
+[0m11:06:37.633737 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_intermediate_seeds"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'intermediate_seeds'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'intermediate_seeds'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'intermediate_seeds'
+  
+[0m11:06:37.759780 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.126 seconds
+[0m11:06:37.761040 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: ROLLBACK
+[0m11:06:37.764253 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: Close
+[0m11:06:37.770570 [debug] [MainThread]: Using postgres connection "master"
+[0m11:06:37.771128 [debug] [MainThread]: On master: BEGIN
+[0m11:06:37.771410 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:06:37.874706 [debug] [MainThread]: SQL status: BEGIN in 0.103 seconds
+[0m11:06:37.875353 [debug] [MainThread]: Using postgres connection "master"
+[0m11:06:37.875710 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m11:06:38.003615 [debug] [MainThread]: SQL status: SELECT 1 in 0.127 seconds
+[0m11:06:38.005043 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b4fa0a88-79b7-4155-86b4-573955ddd5e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D5A303E90>]}
+[0m11:06:38.005471 [debug] [MainThread]: On master: ROLLBACK
+[0m11:06:38.008521 [debug] [MainThread]: Using postgres connection "master"
+[0m11:06:38.008945 [debug] [MainThread]: On master: BEGIN
+[0m11:06:38.011556 [debug] [MainThread]: SQL status: BEGIN in 0.002 seconds
+[0m11:06:38.011923 [debug] [MainThread]: On master: COMMIT
+[0m11:06:38.012176 [debug] [MainThread]: Using postgres connection "master"
+[0m11:06:38.012395 [debug] [MainThread]: On master: COMMIT
+[0m11:06:38.013712 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m11:06:38.014037 [debug] [MainThread]: On master: Close
+[0m11:06:38.018667 [debug] [Thread-1 (]: Began running node test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754
+[0m11:06:38.019257 [debug] [Thread-2 (]: Began running node test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496
+[0m11:06:38.019668 [info ] [Thread-1 (]: 1 of 3 START test not_null_fct_bookings_v1_book_ref ............................ [RUN]
+[0m11:06:38.020189 [info ] [Thread-2 (]: 2 of 3 START test not_null_fct_bookings_v1_total_amount ........................ [RUN]
+[0m11:06:38.020989 [debug] [Thread-1 (]: Acquiring new postgres connection 'test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754'
+[0m11:06:38.021608 [debug] [Thread-2 (]: Acquiring new postgres connection 'test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496'
+[0m11:06:38.022128 [debug] [Thread-1 (]: Began compiling node test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754
+[0m11:06:38.022555 [debug] [Thread-2 (]: Began compiling node test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496
+[0m11:06:38.037808 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"
+[0m11:06:38.045991 [debug] [Thread-2 (]: Writing injected SQL for node "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"
+[0m11:06:38.048050 [debug] [Thread-1 (]: Began executing node test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754
+[0m11:06:38.064971 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"
+[0m11:06:38.065566 [debug] [Thread-2 (]: Began executing node test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496
+[0m11:06:38.067415 [debug] [Thread-2 (]: Writing runtime sql for node "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"
+[0m11:06:38.068400 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"
+[0m11:06:38.068776 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754: BEGIN
+[0m11:06:38.069127 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m11:06:38.069789 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"
+[0m11:06:38.070135 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496: BEGIN
+[0m11:06:38.070422 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m11:06:38.173393 [debug] [Thread-1 (]: SQL status: BEGIN in 0.104 seconds
+[0m11:06:38.173921 [debug] [Thread-2 (]: SQL status: BEGIN in 0.103 seconds
+[0m11:06:38.174361 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"
+[0m11:06:38.174898 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"
+[0m11:06:38.175355 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select book_ref
+from "dwh_flight"."intermediate"."fct_bookings_v1"
+where book_ref is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m11:06:38.175787 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select total_amount
+from "dwh_flight"."intermediate"."fct_bookings_v1"
+where total_amount is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m11:06:38.224567 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.048 seconds
+[0m11:06:38.228969 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754: ROLLBACK
+[0m11:06:38.232106 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754: Close
+[0m11:06:38.232910 [info ] [Thread-1 (]: 1 of 3 PASS not_null_fct_bookings_v1_book_ref .................................. [[32mPASS[0m in 0.21s]
+[0m11:06:38.233701 [debug] [Thread-1 (]: Finished running node test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754
+[0m11:06:38.234113 [debug] [Thread-1 (]: Began running node test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623
+[0m11:06:38.234905 [info ] [Thread-1 (]: 3 of 3 START test unique_fct_bookings_v1_book_ref .............................. [RUN]
+[0m11:06:38.235684 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbt_course_practice.not_null_fct_bookings_v1_book_ref.c19fddd754, now test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623)
+[0m11:06:38.236031 [debug] [Thread-1 (]: Began compiling node test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623
+[0m11:06:38.243404 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"
+[0m11:06:38.245004 [debug] [Thread-1 (]: Began executing node test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623
+[0m11:06:38.247976 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"
+[0m11:06:38.249225 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"
+[0m11:06:38.249826 [debug] [Thread-1 (]: On test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623: BEGIN
+[0m11:06:38.250325 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m11:06:38.377656 [debug] [Thread-1 (]: SQL status: BEGIN in 0.127 seconds
+[0m11:06:38.378508 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"
+[0m11:06:38.379192 [debug] [Thread-1 (]: On test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    book_ref as unique_field,
+    count(*) as n_records
+
+from "dwh_flight"."intermediate"."fct_bookings_v1"
+where book_ref is not null
+group by book_ref
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m11:06:38.438788 [debug] [Thread-2 (]: SQL status: SELECT 1 in 0.262 seconds
+[0m11:06:38.440392 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496: ROLLBACK
+[0m11:06:38.444023 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496: Close
+[0m11:06:38.444988 [info ] [Thread-2 (]: 2 of 3 PASS not_null_fct_bookings_v1_total_amount .............................. [[32mPASS[0m in 0.42s]
+[0m11:06:38.445640 [debug] [Thread-2 (]: Finished running node test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496
+[0m11:06:41.497702 [debug] [Thread-1 (]: SQL status: SELECT 1 in 3.118 seconds
+[0m11:06:41.499152 [debug] [Thread-1 (]: On test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623: ROLLBACK
+[0m11:06:41.502515 [debug] [Thread-1 (]: On test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623: Close
+[0m11:06:41.503707 [info ] [Thread-1 (]: 3 of 3 PASS unique_fct_bookings_v1_book_ref .................................... [[32mPASS[0m in 3.27s]
+[0m11:06:41.504872 [debug] [Thread-1 (]: Finished running node test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623
+[0m11:06:41.506666 [debug] [MainThread]: Using postgres connection "master"
+[0m11:06:41.507077 [debug] [MainThread]: On master: BEGIN
+[0m11:06:41.508674 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m11:06:41.608633 [debug] [MainThread]: SQL status: BEGIN in 0.100 seconds
+[0m11:06:41.609059 [debug] [MainThread]: On master: COMMIT
+[0m11:06:41.609332 [debug] [MainThread]: Using postgres connection "master"
+[0m11:06:41.609556 [debug] [MainThread]: On master: COMMIT
+[0m11:06:41.611259 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m11:06:41.611595 [debug] [MainThread]: On master: Close
+[0m11:06:41.612073 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:06:41.612450 [debug] [MainThread]: Connection 'list_dwh_flight_snapshot' was properly closed.
+[0m11:06:41.613159 [debug] [MainThread]: Connection 'list_dwh_flight_intermediate_seeds' was properly closed.
+[0m11:06:41.613410 [debug] [MainThread]: Connection 'test.dbt_course_practice.unique_fct_bookings_v1_book_ref.264b503623' was properly closed.
+[0m11:06:41.613618 [debug] [MainThread]: Connection 'test.dbt_course_practice.not_null_fct_bookings_v1_total_amount.8a7dd7a496' was properly closed.
+[0m11:06:41.613877 [info ] [MainThread]: 
+[0m11:06:41.614168 [info ] [MainThread]: Finished running 3 data tests in 0 hours 0 minutes and 4.40 seconds (4.40s).
+[0m11:06:41.615174 [debug] [MainThread]: Command end result
+[0m11:06:41.639908 [debug] [MainThread]: Wrote artifact WritableManifest to d:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m11:06:41.644096 [debug] [MainThread]: Wrote artifact SemanticManifest to d:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m11:06:41.651207 [debug] [MainThread]: Wrote artifact RunExecutionResult to d:\dbt_ch_docker\dbt_course_practice\target\run_results.json
+[0m11:06:41.651547 [info ] [MainThread]: 
+[0m11:06:41.651991 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:06:41.652478 [info ] [MainThread]: 
+[0m11:06:41.652793 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m11:06:41.653777 [debug] [MainThread]: Command `cli test` succeeded at 11:06:41.653655 after 7.00 seconds
+[0m11:06:41.654134 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D5A51E360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D5A594FF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D5A595090>]}
+[0m11:06:41.654473 [debug] [MainThread]: Flushing usage events
+[0m11:06:42.406209 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:44:13.730126 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027774494830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027774C8CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000277752C8E10>]}
+
+
+============================== 11:44:13.735129 | 60cc08f8-b1ee-4cfb-b955-66c35109fa15 ==============================
+[0m11:44:13.735129 [info ] [MainThread]: Running with dbt=1.10.17
+[0m11:44:13.735679 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt ', 'use_experimental_parser': 'False', 'log_path': 'd:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m11:44:13.874659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '60cc08f8-b1ee-4cfb-b955-66c35109fa15', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000277746548A0>]}
+[0m11:44:13.904941 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m11:44:13.906400 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m11:44:13.907568 [debug] [MainThread]: Command `cli deps` succeeded at 11:44:13.907318 after 0.35 seconds
+[0m11:44:13.907950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027775173BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027775172BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002777514BE50>]}
+[0m11:44:13.908297 [debug] [MainThread]: Flushing usage events
+[0m11:44:14.722692 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:52:32.505358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D59F4830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D61ECB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D6828E10>]}
+
+
+============================== 11:52:32.509452 | 83c154e7-5379-4700-93c3-c15dfc36996f ==============================
+[0m11:52:32.509452 [info ] [MainThread]: Running with dbt=1.10.17
+[0m11:52:32.510065 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'invocation_command': 'dbt ', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'd:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m11:52:32.650557 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '83c154e7-5379-4700-93c3-c15dfc36996f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D5BB08A0>]}
+[0m11:52:32.675932 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m11:52:32.677292 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m11:52:32.678484 [debug] [MainThread]: Command `cli deps` succeeded at 11:52:32.678345 after 0.36 seconds
+[0m11:52:32.678845 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D66D3BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D66D2BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4D66ABE50>]}
+[0m11:52:32.679178 [debug] [MainThread]: Flushing usage events
+[0m11:52:33.504376 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:52:35.961058 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B54494980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B54F38B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B5557FED0>]}
+
+
+============================== 11:52:35.965349 | 6bb56692-2b9c-40e6-8993-ad8a4772fcbc ==============================
+[0m11:52:35.965349 [info ] [MainThread]: Running with dbt=1.10.17
+[0m11:52:35.966175 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt docs serve', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'D:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m11:52:36.132242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6bb56692-2b9c-40e6-8993-ad8a4772fcbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B549009D0>]}
+[0m11:52:36.194296 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6bb56692-2b9c-40e6-8993-ad8a4772fcbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B5541EE00>]}
+[0m16:08:08.127347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BA5AA4830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BA629CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BA68D8E10>]}
+
+
+============================== 16:08:08.132650 | 8d57cfc7-d6ad-48fe-9df7-09f51c6b4851 ==============================
+[0m16:08:08.132650 [info ] [MainThread]: Running with dbt=1.10.17
+[0m16:08:08.133291 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt ', 'use_experimental_parser': 'False', 'log_path': 'd:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m16:08:08.274474 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8d57cfc7-d6ad-48fe-9df7-09f51c6b4851', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BA5C608A0>]}
+[0m16:08:08.303029 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:08:08.304409 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m16:08:08.305663 [debug] [MainThread]: Command `cli deps` succeeded at 16:08:08.305499 after 0.35 seconds
+[0m16:08:08.306045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BA6783BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BA6782BE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021BA675BE50>]}
+[0m16:08:08.306395 [debug] [MainThread]: Flushing usage events
+[0m16:08:09.224089 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,16 +1,13 @@
 {{
-	config(
-		materialized = 'incremental',
-		incremental_strategy = 'append'
-)
+    config(
+        materialized = 'table',
+        tags = ['bookings']
+    )
 }}
-select 
-	book_ref,
-	book_date,
-	total_amount
-from 
-	{{ source('demo_src', 'bookings')}}
-{% if is_incremental() %}
-where 
-	book_ref > (select max(book_ref) from {{this}})
-{% endif %}
+SELECT
+    book_ref,
+    book_date,
+    total_amount
+FROM
+    {{ source('demo_src', 'bookings') }}
+{{ limit_data_dev('book_date') }}
