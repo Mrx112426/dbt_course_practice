@@ -5,7 +5,7 @@
 {% endmacro %}
 
 
-{% macro drop_old_relations(dryrun=False) %}
+{% macro drop_old_relations(dryrun=True) %}
 
     {% if execute %}
     
