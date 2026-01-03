@@ -24,7 +24,9 @@ select
         when actual_departure is not null and scheduled_departure < actual_departure
             then actual_departure - scheduled_departure
             else INTERVAL '0 seconds'
-    end as flight_departure_delay
+    end as flight_departure_delay,
+    flight_id  || ', ' || flight_no 
+ as test_macros
 from
     "dwh_flight"."intermediate"."stg_flights__flights"
   );

@@ -16217,3 +16217,1135 @@ where parent.to_field is null
 [0m15:12:10.879901 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E54FEB3B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5516A6570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5516A7D80>]}
 [0m15:12:10.880239 [debug] [MainThread]: Flushing usage events
 [0m15:12:12.101121 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:36:59.928224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018981D54980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000189827F8B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018982E3FED0>]}
+
+
+============================== 15:36:59.932882 | 429589fc-d770-4c0d-b7cf-800e325203ff ==============================
+[0m15:36:59.932882 [info ] [MainThread]: Running with dbt=1.10.17
+[0m15:36:59.933754 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt test -s stg_flights__flights', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'D:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m15:37:00.116067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '429589fc-d770-4c0d-b7cf-800e325203ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000189821BC9D0>]}
+[0m15:37:00.179133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '429589fc-d770-4c0d-b7cf-800e325203ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018982CDECF0>]}
+[0m15:37:00.180242 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m15:37:00.359789 [debug] [MainThread]: checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e, vars: {}, profile: , target: , version: 1.10.17
+[0m15:37:00.603936 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m15:37:00.605721 [debug] [MainThread]: Partial parsing: updated file: dbt_course_practice://tests\intermediate\flights\unit_fct_fligths.yml
+[0m15:37:00.652998 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Unable to find model 'dbt_course_practice.fct_fligths' for unit test 'test_fact_departure_before_scheduled_departure' in tests\intermediate\flights\unit_fct_fligths.yml
+[0m15:37:00.654520 [debug] [MainThread]: Command `dbt test` failed at 15:37:00.654196 after 1.05 seconds
+[0m15:37:00.655329 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018984692250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018984690B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000189844C46E0>]}
+[0m15:37:00.655702 [debug] [MainThread]: Flushing usage events
+[0m15:37:01.667832 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:38:12.124930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E0844980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E12E8B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E192FED0>]}
+
+
+============================== 15:38:12.129035 | 49ded444-8d03-41a0-9095-9e2cde9527bc ==============================
+[0m15:38:12.129035 [info ] [MainThread]: Running with dbt=1.10.17
+[0m15:38:12.129758 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt test -s stg_flights__flights', 'use_experimental_parser': 'False', 'log_path': 'D:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m15:38:12.304445 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '49ded444-8d03-41a0-9095-9e2cde9527bc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E0CB49D0>]}
+[0m15:38:12.367468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '49ded444-8d03-41a0-9095-9e2cde9527bc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E17CECF0>]}
+[0m15:38:12.368538 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m15:38:12.549632 [debug] [MainThread]: checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e, vars: {}, profile: , target: , version: 1.10.17
+[0m15:38:12.780144 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m15:38:12.781566 [debug] [MainThread]: Partial parsing: updated file: dbt_course_practice://tests\intermediate\flights\unit_fct_fligths.yml
+[0m15:38:13.082088 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '49ded444-8d03-41a0-9095-9e2cde9527bc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E3222650>]}
+[0m15:38:13.244063 [debug] [MainThread]: Wrote artifact WritableManifest to D:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m15:38:13.247529 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m15:38:13.289302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '49ded444-8d03-41a0-9095-9e2cde9527bc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E2FE9B80>]}
+[0m15:38:13.290002 [info ] [MainThread]: Found 62 models, 2 snapshots, 3 analyses, 42 data tests, 2 seeds, 8 sources, 670 macros, 4 unit tests
+[0m15:38:13.290720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '49ded444-8d03-41a0-9095-9e2cde9527bc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E2F7CC90>]}
+[0m15:38:13.293147 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m15:38:13.293953 [debug] [MainThread]: Command end result
+[0m15:38:13.344150 [debug] [MainThread]: Wrote artifact WritableManifest to D:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m15:38:13.346561 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m15:38:13.349611 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\dbt_ch_docker\dbt_course_practice\target\run_results.json
+[0m15:38:13.351096 [debug] [MainThread]: Command `dbt test` succeeded at 15:38:13.350947 after 1.53 seconds
+[0m15:38:13.351850 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E2FD2C30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E1693B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207E2F51B50>]}
+[0m15:38:13.352270 [debug] [MainThread]: Flushing usage events
+[0m15:38:14.363111 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:39:03.021586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234BE5D4980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234BF078B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234BF6BFED0>]}
+
+
+============================== 15:39:03.026049 | 0a0476e1-a906-4553-84a5-72f04953dff8 ==============================
+[0m15:39:03.026049 [info ] [MainThread]: Running with dbt=1.10.17
+[0m15:39:03.026881 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt test -s unit_fct_fligths', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'D:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m15:39:03.196174 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0a0476e1-a906-4553-84a5-72f04953dff8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234BEA409D0>]}
+[0m15:39:03.257299 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0a0476e1-a906-4553-84a5-72f04953dff8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234BF55ECF0>]}
+[0m15:39:03.258454 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m15:39:03.434694 [debug] [MainThread]: checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e, vars: {}, profile: , target: , version: 1.10.17
+[0m15:39:03.674530 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:39:03.674993 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:39:03.756921 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0a0476e1-a906-4553-84a5-72f04953dff8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234C0F76450>]}
+[0m15:39:03.976123 [debug] [MainThread]: Wrote artifact WritableManifest to D:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m15:39:03.979388 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m15:39:04.017406 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0a0476e1-a906-4553-84a5-72f04953dff8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234C0C31D60>]}
+[0m15:39:04.018107 [info ] [MainThread]: Found 62 models, 2 snapshots, 3 analyses, 42 data tests, 2 seeds, 8 sources, 670 macros, 4 unit tests
+[0m15:39:04.018990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0a0476e1-a906-4553-84a5-72f04953dff8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234BF6C2350>]}
+[0m15:39:04.020285 [warn ] [MainThread]: The selection criterion 'unit_fct_fligths' does not match any enabled nodes
+[0m15:39:04.022064 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m15:39:04.023924 [debug] [MainThread]: Command end result
+[0m15:39:04.073262 [debug] [MainThread]: Wrote artifact WritableManifest to D:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m15:39:04.077548 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m15:39:04.081456 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\dbt_ch_docker\dbt_course_practice\target\run_results.json
+[0m15:39:04.083069 [debug] [MainThread]: Command `dbt test` succeeded at 15:39:04.082796 after 1.32 seconds
+[0m15:39:04.083695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234C08136C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234BF423B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000234C0C35310>]}
+[0m15:39:04.084164 [debug] [MainThread]: Flushing usage events
+[0m15:39:05.124023 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:40:25.575808 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6FE224980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6FECC8B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6FF30FED0>]}
+
+
+============================== 15:40:25.579810 | 4deff342-6eb4-4c89-a1e7-092584f4233d ==============================
+[0m15:40:25.579810 [info ] [MainThread]: Running with dbt=1.10.17
+[0m15:40:25.580663 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt build --select fct_fligths', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'D:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m15:40:25.752342 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4deff342-6eb4-4c89-a1e7-092584f4233d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6FE6909D0>]}
+[0m15:40:25.815815 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4deff342-6eb4-4c89-a1e7-092584f4233d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6FF1AFF00>]}
+[0m15:40:25.816880 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m15:40:25.992760 [debug] [MainThread]: checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e, vars: {}, profile: , target: , version: 1.10.17
+[0m15:40:26.207974 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 1 files added, 0 files changed.
+[0m15:40:26.208707 [debug] [MainThread]: Partial parsing: added file: dbt_course_practice://models\intermediate\flights\fct_fligths.sql
+[0m15:40:26.209208 [debug] [MainThread]: Partial parsing: deleted file: dbt_course_practice://models\intermediate\flights\fct_flights.sql
+[0m15:40:26.619826 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Analysis 'analysis.dbt_course_practice.cancelled_flights_mirniy' (analyses\cancelled_flights_mirniy.sql) depends on a node named 'fct_flights' which was not found
+[0m15:40:26.620995 [debug] [MainThread]: Command `dbt build` failed at 15:40:26.620850 after 1.20 seconds
+[0m15:40:26.621356 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6FFBCB350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6FFBCB750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C6FF90E990>]}
+[0m15:40:26.621688 [debug] [MainThread]: Flushing usage events
+[0m15:40:27.802349 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:42:25.137685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013B4B884980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013B4C328B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013B4C96FED0>]}
+
+
+============================== 15:42:25.142396 | 5b286b41-7322-4188-8891-e3397aba03d8 ==============================
+[0m15:42:25.142396 [info ] [MainThread]: Running with dbt=1.10.17
+[0m15:42:25.143279 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt build --select fct_flights', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'D:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m15:42:25.312729 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5b286b41-7322-4188-8891-e3397aba03d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013B4BCF49D0>]}
+[0m15:42:25.374383 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5b286b41-7322-4188-8891-e3397aba03d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013B4C80FF00>]}
+[0m15:42:25.375398 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m15:42:25.547864 [debug] [MainThread]: checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e, vars: {}, profile: , target: , version: 1.10.17
+[0m15:42:25.758306 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:42:25.758754 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:42:25.839606 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5b286b41-7322-4188-8891-e3397aba03d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013B4E1A6450>]}
+[0m15:42:26.057860 [debug] [MainThread]: Wrote artifact WritableManifest to D:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m15:42:26.060512 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m15:42:26.109895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5b286b41-7322-4188-8891-e3397aba03d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013B4DF51D60>]}
+[0m15:42:26.110599 [info ] [MainThread]: Found 62 models, 2 snapshots, 3 analyses, 42 data tests, 2 seeds, 8 sources, 670 macros, 4 unit tests
+[0m15:42:26.114793 [info ] [MainThread]: 
+[0m15:42:26.115495 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m15:42:26.116152 [info ] [MainThread]: 
+[0m15:42:26.117787 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m15:42:26.119148 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight'
+[0m15:42:26.177223 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight"
+[0m15:42:26.177789 [debug] [ThreadPool]: On list_dwh_flight: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m15:42:26.178174 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:42:26.355239 [debug] [ThreadPool]: SQL status: SELECT 12 in 0.177 seconds
+[0m15:42:26.356519 [debug] [ThreadPool]: On list_dwh_flight: Close
+[0m15:42:26.365538 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight_snapshot'
+[0m15:42:26.366257 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight_intermediate'
+[0m15:42:26.372388 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_snapshot"
+[0m15:42:26.374702 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate"
+[0m15:42:26.375193 [debug] [ThreadPool]: On list_dwh_flight_snapshot: BEGIN
+[0m15:42:26.375737 [debug] [ThreadPool]: On list_dwh_flight_intermediate: BEGIN
+[0m15:42:26.376111 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:42:26.376522 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:42:26.499936 [debug] [ThreadPool]: SQL status: BEGIN in 0.124 seconds
+[0m15:42:26.500399 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_snapshot"
+[0m15:42:26.500704 [debug] [ThreadPool]: On list_dwh_flight_snapshot: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_snapshot"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'snapshot'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'snapshot'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'snapshot'
+  
+[0m15:42:26.501053 [debug] [ThreadPool]: SQL status: BEGIN in 0.125 seconds
+[0m15:42:26.501469 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate"
+[0m15:42:26.501858 [debug] [ThreadPool]: On list_dwh_flight_intermediate: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_intermediate"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'intermediate'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'intermediate'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'intermediate'
+  
+[0m15:42:26.629103 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.128 seconds
+[0m15:42:26.630458 [debug] [ThreadPool]: On list_dwh_flight_snapshot: ROLLBACK
+[0m15:42:26.630873 [debug] [ThreadPool]: SQL status: SELECT 16 in 0.129 seconds
+[0m15:42:26.632204 [debug] [ThreadPool]: On list_dwh_flight_intermediate: ROLLBACK
+[0m15:42:26.633773 [debug] [ThreadPool]: On list_dwh_flight_snapshot: Close
+[0m15:42:26.634435 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dwh_flight_snapshot, now list_dwh_flight_intermediate_seeds)
+[0m15:42:26.636367 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate_seeds"
+[0m15:42:26.636712 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: BEGIN
+[0m15:42:26.636991 [debug] [ThreadPool]: On list_dwh_flight_intermediate: Close
+[0m15:42:26.637345 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:42:26.738155 [debug] [ThreadPool]: SQL status: BEGIN in 0.101 seconds
+[0m15:42:26.738606 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate_seeds"
+[0m15:42:26.738961 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_intermediate_seeds"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'intermediate_seeds'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'intermediate_seeds'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'intermediate_seeds'
+  
+[0m15:42:26.868712 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.129 seconds
+[0m15:42:26.870019 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: ROLLBACK
+[0m15:42:26.873705 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: Close
+[0m15:42:26.881564 [debug] [MainThread]: Using postgres connection "master"
+[0m15:42:26.882080 [debug] [MainThread]: On master: BEGIN
+[0m15:42:26.882481 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:42:26.995014 [debug] [MainThread]: SQL status: BEGIN in 0.112 seconds
+[0m15:42:26.995488 [debug] [MainThread]: Using postgres connection "master"
+[0m15:42:26.995881 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m15:42:27.144717 [debug] [MainThread]: SQL status: SELECT 1 in 0.148 seconds
+[0m15:42:27.147555 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5b286b41-7322-4188-8891-e3397aba03d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013B4E364750>]}
+[0m15:42:27.148089 [debug] [MainThread]: On master: ROLLBACK
+[0m15:42:27.153365 [debug] [MainThread]: Using postgres connection "master"
+[0m15:42:27.153994 [debug] [MainThread]: On master: BEGIN
+[0m15:42:27.157321 [debug] [MainThread]: SQL status: BEGIN in 0.003 seconds
+[0m15:42:27.157897 [debug] [MainThread]: On master: COMMIT
+[0m15:42:27.158339 [debug] [MainThread]: Using postgres connection "master"
+[0m15:42:27.158751 [debug] [MainThread]: On master: COMMIT
+[0m15:42:27.161953 [debug] [MainThread]: SQL status: COMMIT in 0.003 seconds
+[0m15:42:27.162791 [debug] [MainThread]: On master: Close
+[0m15:42:27.168941 [debug] [Thread-1 (]: Began running node unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data
+[0m15:42:27.170037 [info ] [Thread-1 (]: 1 of 5 START unit_test fct_flights::test_fact_departure_after_scheduled_departure_all_data  [RUN]
+[0m15:42:27.171114 [debug] [Thread-1 (]: Acquiring new postgres connection 'unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data'
+[0m15:42:27.171723 [debug] [Thread-1 (]: Began compiling node unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data
+[0m15:42:27.172299 [debug] [Thread-1 (]: Began executing node unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data
+[0m15:42:27.222873 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"
+[0m15:42:27.223550 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data: BEGIN
+[0m15:42:27.224003 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:42:27.332839 [debug] [Thread-1 (]: SQL status: BEGIN in 0.109 seconds
+[0m15:42:27.333372 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"
+[0m15:42:27.333800 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "dwh_flight".INFORMATION_SCHEMA.columns
+      where table_name = 'stg_flights__flights'
+        
+        and table_schema = 'intermediate'
+        
+      order by ordinal_position
+
+  
+[0m15:42:27.522522 [debug] [Thread-1 (]: SQL status: SELECT 10 in 0.188 seconds
+[0m15:42:27.550218 [debug] [Thread-1 (]: Writing injected SQL for node "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"
+[0m15:42:27.557384 [debug] [Thread-1 (]: Writing injected SQL for node "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"
+[0m15:42:27.590289 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"
+[0m15:42:27.590971 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"} */
+
+    
+  
+    
+
+  create temporary table "test_fact_departure_after_scheduled_depart__dbt_tmp154227577852"
+  
+  
+    as
+  
+  (
+    select * from (
+        
+with __dbt__cte__stg_flights__flights as (
+
+-- Fixture for stg_flights__flights
+select 
+    
+    cast(182 as integer)
+ as "flight_id", 
+    
+    cast('PG0402' as character varying(6))
+ as "flight_no", 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "scheduled_departure", 
+    
+    cast('2017-09-01T10:20:00+00:00' as timestamp with time zone)
+ as "scheduled_arrival", 
+    
+    cast('DME' as character varying(3))
+ as "departure_airport", 
+    
+    cast('LED' as character varying(3))
+ as "arrival_airport", 
+    
+    cast('Arrived' as character varying(20))
+ as "status", 
+    
+    cast(321 as character varying(3))
+ as "aircraft_code", 
+    
+    cast('2017-09-01T09:27:00+00:00' as timestamp with time zone)
+ as "actual_departure", 
+    
+    cast('2017-09-01T10:22:00+00:00' as timestamp with time zone)
+ as "actual_arrival"
+) select
+    flight_id, 
+    flight_no, 
+    scheduled_departure, 
+    scheduled_arrival, 
+    departure_airport, 
+    arrival_airport, 
+    status, 
+    aircraft_code, 
+    actual_departure, 
+    actual_arrival,
+    case
+        when actual_departure is not null and scheduled_departure < actual_departure
+            then actual_departure - scheduled_departure
+            else INTERVAL '0 seconds'
+    end as flight_departure_delay,
+    flight_id  || ', ' || flight_no 
+ as test_macros
+from
+    __dbt__cte__stg_flights__flights
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+  );
+  
+  
+[0m15:42:27.678588 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.087 seconds
+[0m15:42:27.681330 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"
+[0m15:42:27.681829 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'test_fact_departure_after_scheduled_depart__dbt_tmp154227577852'
+        
+      order by ordinal_position
+
+  
+[0m15:42:27.716411 [debug] [Thread-1 (]: SQL status: SELECT 12 in 0.034 seconds
+[0m15:42:27.727694 [debug] [Thread-1 (]: Writing runtime sql for node "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"
+[0m15:42:27.729703 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"
+[0m15:42:27.730259 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"} */
+-- Build actual result given inputs
+with dbt_internal_unit_test_actual as (
+  select
+    "flight_id","flight_no","scheduled_departure","scheduled_arrival","departure_airport","arrival_airport","status","aircraft_code","actual_departure","actual_arrival","flight_departure_delay", 'actual' as "actual_or_expected"
+  from (
+    
+with __dbt__cte__stg_flights__flights as (
+
+-- Fixture for stg_flights__flights
+select 
+    
+    cast(182 as integer)
+ as "flight_id", 
+    
+    cast('PG0402' as character varying(6))
+ as "flight_no", 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "scheduled_departure", 
+    
+    cast('2017-09-01T10:20:00+00:00' as timestamp with time zone)
+ as "scheduled_arrival", 
+    
+    cast('DME' as character varying(3))
+ as "departure_airport", 
+    
+    cast('LED' as character varying(3))
+ as "arrival_airport", 
+    
+    cast('Arrived' as character varying(20))
+ as "status", 
+    
+    cast(321 as character varying(3))
+ as "aircraft_code", 
+    
+    cast('2017-09-01T09:27:00+00:00' as timestamp with time zone)
+ as "actual_departure", 
+    
+    cast('2017-09-01T10:22:00+00:00' as timestamp with time zone)
+ as "actual_arrival"
+) select
+    flight_id, 
+    flight_no, 
+    scheduled_departure, 
+    scheduled_arrival, 
+    departure_airport, 
+    arrival_airport, 
+    status, 
+    aircraft_code, 
+    actual_departure, 
+    actual_arrival,
+    case
+        when actual_departure is not null and scheduled_departure < actual_departure
+            then actual_departure - scheduled_departure
+            else INTERVAL '0 seconds'
+    end as flight_departure_delay,
+    flight_id  || ', ' || flight_no 
+ as test_macros
+from
+    __dbt__cte__stg_flights__flights
+  ) _dbt_internal_unit_test_actual
+),
+-- Build expected result
+dbt_internal_unit_test_expected as (
+  select
+    "flight_id", "flight_no", "scheduled_departure", "scheduled_arrival", "departure_airport", "arrival_airport", "status", "aircraft_code", "actual_departure", "actual_arrival", "flight_departure_delay", 'expected' as "actual_or_expected"
+  from (
+    select 
+    
+    cast(182 as integer)
+ as "flight_id", 
+    
+    cast('PG0402' as character varying(6))
+ as "flight_no", 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "scheduled_departure", 
+    
+    cast('2017-09-01T10:20:00+00:00' as timestamp with time zone)
+ as "scheduled_arrival", 
+    
+    cast('DME' as character varying(3))
+ as "departure_airport", 
+    
+    cast('LED' as character varying(3))
+ as "arrival_airport", 
+    
+    cast('Arrived' as character varying(20))
+ as "status", 
+    
+    cast(321 as character varying(3))
+ as "aircraft_code", 
+    
+    cast('2017-09-01T09:27:00+00:00' as timestamp with time zone)
+ as "actual_departure", 
+    
+    cast('2017-09-01T10:22:00+00:00' as timestamp with time zone)
+ as "actual_arrival", 
+    
+    cast('0:02:00' as interval)
+ as "flight_departure_delay"
+  ) _dbt_internal_unit_test_expected
+)
+-- Union actual and expected results
+select * from dbt_internal_unit_test_actual
+union all
+select * from dbt_internal_unit_test_expected
+[0m15:42:27.749211 [debug] [Thread-1 (]: SQL status: SELECT 2 in 0.018 seconds
+[0m15:42:27.756942 [debug] [Thread-1 (]: Applying DROP to: "test_fact_departure_after_scheduled_depart__dbt_tmp154227577852"
+[0m15:42:27.761351 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"
+[0m15:42:27.761762 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data"} */
+drop table if exists "test_fact_departure_after_scheduled_depart__dbt_tmp154227577852" cascade
+[0m15:42:27.776588 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.014 seconds
+[0m15:42:27.816481 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data: ROLLBACK
+[0m15:42:27.825060 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data: Close
+[0m15:42:27.825906 [info ] [Thread-1 (]: 1 of 5 PASS fct_flights::test_fact_departure_after_scheduled_departure_all_data  [[32mPASS[0m in 0.65s]
+[0m15:42:27.826769 [debug] [Thread-1 (]: Finished running node unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data
+[0m15:42:27.827167 [debug] [Thread-1 (]: Began running node unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure
+[0m15:42:27.827483 [info ] [Thread-1 (]: 2 of 5 START unit_test fct_flights::test_fact_departure_after_scheduled_departure  [RUN]
+[0m15:42:27.828197 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure_all_data, now unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure)
+[0m15:42:27.828561 [debug] [Thread-1 (]: Began compiling node unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure
+[0m15:42:27.828911 [debug] [Thread-1 (]: Began executing node unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure
+[0m15:42:27.837866 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"
+[0m15:42:27.838311 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure: BEGIN
+[0m15:42:27.838607 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:42:27.939337 [debug] [Thread-1 (]: SQL status: BEGIN in 0.101 seconds
+[0m15:42:27.939780 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"
+[0m15:42:27.940144 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "dwh_flight".INFORMATION_SCHEMA.columns
+      where table_name = 'stg_flights__flights'
+        
+        and table_schema = 'intermediate'
+        
+      order by ordinal_position
+
+  
+[0m15:42:28.130101 [debug] [Thread-1 (]: SQL status: SELECT 10 in 0.190 seconds
+[0m15:42:28.132670 [debug] [Thread-1 (]: Writing injected SQL for node "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"
+[0m15:42:28.136654 [debug] [Thread-1 (]: Writing injected SQL for node "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"
+[0m15:42:28.143873 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"
+[0m15:42:28.144334 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"} */
+
+    
+  
+    
+
+  create temporary table "test_fact_departure_after_scheduled_depart__dbt_tmp154228143216"
+  
+  
+    as
+  
+  (
+    select * from (
+        
+with __dbt__cte__stg_flights__flights as (
+
+-- Fixture for stg_flights__flights
+select cast(null as integer) as "flight_id", cast(null as character varying(6)) as "flight_no", 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "scheduled_departure", cast(null as timestamp with time zone) as "scheduled_arrival", cast(null as character varying(3)) as "departure_airport", cast(null as character varying(3)) as "arrival_airport", cast(null as character varying(20)) as "status", cast(null as character varying(3)) as "aircraft_code", 
+    
+    cast('2017-09-01T09:27:00+00:00' as timestamp with time zone)
+ as "actual_departure", cast(null as timestamp with time zone) as "actual_arrival"
+) select
+    flight_id, 
+    flight_no, 
+    scheduled_departure, 
+    scheduled_arrival, 
+    departure_airport, 
+    arrival_airport, 
+    status, 
+    aircraft_code, 
+    actual_departure, 
+    actual_arrival,
+    case
+        when actual_departure is not null and scheduled_departure < actual_departure
+            then actual_departure - scheduled_departure
+            else INTERVAL '0 seconds'
+    end as flight_departure_delay,
+    flight_id  || ', ' || flight_no 
+ as test_macros
+from
+    __dbt__cte__stg_flights__flights
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+  );
+  
+  
+[0m15:42:28.203305 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.059 seconds
+[0m15:42:28.205848 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"
+[0m15:42:28.206230 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'test_fact_departure_after_scheduled_depart__dbt_tmp154228143216'
+        
+      order by ordinal_position
+
+  
+[0m15:42:28.237122 [debug] [Thread-1 (]: SQL status: SELECT 12 in 0.030 seconds
+[0m15:42:28.239624 [debug] [Thread-1 (]: Writing runtime sql for node "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"
+[0m15:42:28.240664 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"
+[0m15:42:28.241100 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"} */
+-- Build actual result given inputs
+with dbt_internal_unit_test_actual as (
+  select
+    "scheduled_departure","actual_departure","flight_departure_delay", 'actual' as "actual_or_expected"
+  from (
+    
+with __dbt__cte__stg_flights__flights as (
+
+-- Fixture for stg_flights__flights
+select cast(null as integer) as "flight_id", cast(null as character varying(6)) as "flight_no", 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "scheduled_departure", cast(null as timestamp with time zone) as "scheduled_arrival", cast(null as character varying(3)) as "departure_airport", cast(null as character varying(3)) as "arrival_airport", cast(null as character varying(20)) as "status", cast(null as character varying(3)) as "aircraft_code", 
+    
+    cast('2017-09-01T09:27:00+00:00' as timestamp with time zone)
+ as "actual_departure", cast(null as timestamp with time zone) as "actual_arrival"
+) select
+    flight_id, 
+    flight_no, 
+    scheduled_departure, 
+    scheduled_arrival, 
+    departure_airport, 
+    arrival_airport, 
+    status, 
+    aircraft_code, 
+    actual_departure, 
+    actual_arrival,
+    case
+        when actual_departure is not null and scheduled_departure < actual_departure
+            then actual_departure - scheduled_departure
+            else INTERVAL '0 seconds'
+    end as flight_departure_delay,
+    flight_id  || ', ' || flight_no 
+ as test_macros
+from
+    __dbt__cte__stg_flights__flights
+  ) _dbt_internal_unit_test_actual
+),
+-- Build expected result
+dbt_internal_unit_test_expected as (
+  select
+    "scheduled_departure", "actual_departure", "flight_departure_delay", 'expected' as "actual_or_expected"
+  from (
+    select 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "scheduled_departure", 
+    
+    cast('2017-09-01T09:27:00+00:00' as timestamp with time zone)
+ as "actual_departure", 
+    
+    cast('0:02:00' as interval)
+ as "flight_departure_delay"
+  ) _dbt_internal_unit_test_expected
+)
+-- Union actual and expected results
+select * from dbt_internal_unit_test_actual
+union all
+select * from dbt_internal_unit_test_expected
+[0m15:42:28.257426 [debug] [Thread-1 (]: SQL status: SELECT 2 in 0.016 seconds
+[0m15:42:28.260591 [debug] [Thread-1 (]: Applying DROP to: "test_fact_departure_after_scheduled_depart__dbt_tmp154228143216"
+[0m15:42:28.261138 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"
+[0m15:42:28.261448 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure"} */
+drop table if exists "test_fact_departure_after_scheduled_depart__dbt_tmp154228143216" cascade
+[0m15:42:28.273877 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.012 seconds
+[0m15:42:28.276425 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure: ROLLBACK
+[0m15:42:28.283513 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure: Close
+[0m15:42:28.284345 [info ] [Thread-1 (]: 2 of 5 PASS fct_flights::test_fact_departure_after_scheduled_departure ......... [[32mPASS[0m in 0.46s]
+[0m15:42:28.285222 [debug] [Thread-1 (]: Finished running node unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure
+[0m15:42:28.285592 [debug] [Thread-1 (]: Began running node unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure
+[0m15:42:28.285890 [info ] [Thread-1 (]: 3 of 5 START unit_test fct_flights::test_fact_departure_before_scheduled_departure  [RUN]
+[0m15:42:28.286416 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly unit_test.dbt_course_practice.fct_flights.test_fact_departure_after_scheduled_departure, now unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure)
+[0m15:42:28.286759 [debug] [Thread-1 (]: Began compiling node unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure
+[0m15:42:28.287064 [debug] [Thread-1 (]: Began executing node unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure
+[0m15:42:28.294501 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"
+[0m15:42:28.294903 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure: BEGIN
+[0m15:42:28.295195 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:42:28.407786 [debug] [Thread-1 (]: SQL status: BEGIN in 0.112 seconds
+[0m15:42:28.408278 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"
+[0m15:42:28.408653 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "dwh_flight".INFORMATION_SCHEMA.columns
+      where table_name = 'stg_flights__flights'
+        
+        and table_schema = 'intermediate'
+        
+      order by ordinal_position
+
+  
+[0m15:42:28.593192 [debug] [Thread-1 (]: SQL status: SELECT 10 in 0.184 seconds
+[0m15:42:28.595954 [debug] [Thread-1 (]: Writing injected SQL for node "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"
+[0m15:42:28.599572 [debug] [Thread-1 (]: Writing injected SQL for node "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"
+[0m15:42:28.602771 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"
+[0m15:42:28.603190 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"} */
+
+    
+  
+    
+
+  create temporary table "test_fact_departure_before_scheduled_depar__dbt_tmp154228602124"
+  
+  
+    as
+  
+  (
+    select * from (
+        
+with __dbt__cte__stg_flights__flights as (
+
+-- Fixture for stg_flights__flights
+select cast(null as integer) as "flight_id", cast(null as character varying(6)) as "flight_no", 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "scheduled_departure", cast(null as timestamp with time zone) as "scheduled_arrival", cast(null as character varying(3)) as "departure_airport", cast(null as character varying(3)) as "arrival_airport", cast(null as character varying(20)) as "status", cast(null as character varying(3)) as "aircraft_code", 
+    
+    cast('2017-09-01T09:23:00+00:00' as timestamp with time zone)
+ as "actual_departure", cast(null as timestamp with time zone) as "actual_arrival"
+) select
+    flight_id, 
+    flight_no, 
+    scheduled_departure, 
+    scheduled_arrival, 
+    departure_airport, 
+    arrival_airport, 
+    status, 
+    aircraft_code, 
+    actual_departure, 
+    actual_arrival,
+    case
+        when actual_departure is not null and scheduled_departure < actual_departure
+            then actual_departure - scheduled_departure
+            else INTERVAL '0 seconds'
+    end as flight_departure_delay,
+    flight_id  || ', ' || flight_no 
+ as test_macros
+from
+    __dbt__cte__stg_flights__flights
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+  );
+  
+  
+[0m15:42:28.666662 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.063 seconds
+[0m15:42:28.669375 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"
+[0m15:42:28.669753 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'test_fact_departure_before_scheduled_depar__dbt_tmp154228602124'
+        
+      order by ordinal_position
+
+  
+[0m15:42:28.703713 [debug] [Thread-1 (]: SQL status: SELECT 12 in 0.034 seconds
+[0m15:42:28.706162 [debug] [Thread-1 (]: Writing runtime sql for node "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"
+[0m15:42:28.707240 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"
+[0m15:42:28.707737 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"} */
+-- Build actual result given inputs
+with dbt_internal_unit_test_actual as (
+  select
+    "scheduled_departure","actual_departure","flight_departure_delay", 'actual' as "actual_or_expected"
+  from (
+    
+with __dbt__cte__stg_flights__flights as (
+
+-- Fixture for stg_flights__flights
+select cast(null as integer) as "flight_id", cast(null as character varying(6)) as "flight_no", 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "scheduled_departure", cast(null as timestamp with time zone) as "scheduled_arrival", cast(null as character varying(3)) as "departure_airport", cast(null as character varying(3)) as "arrival_airport", cast(null as character varying(20)) as "status", cast(null as character varying(3)) as "aircraft_code", 
+    
+    cast('2017-09-01T09:23:00+00:00' as timestamp with time zone)
+ as "actual_departure", cast(null as timestamp with time zone) as "actual_arrival"
+) select
+    flight_id, 
+    flight_no, 
+    scheduled_departure, 
+    scheduled_arrival, 
+    departure_airport, 
+    arrival_airport, 
+    status, 
+    aircraft_code, 
+    actual_departure, 
+    actual_arrival,
+    case
+        when actual_departure is not null and scheduled_departure < actual_departure
+            then actual_departure - scheduled_departure
+            else INTERVAL '0 seconds'
+    end as flight_departure_delay,
+    flight_id  || ', ' || flight_no 
+ as test_macros
+from
+    __dbt__cte__stg_flights__flights
+  ) _dbt_internal_unit_test_actual
+),
+-- Build expected result
+dbt_internal_unit_test_expected as (
+  select
+    "scheduled_departure", "actual_departure", "flight_departure_delay", 'expected' as "actual_or_expected"
+  from (
+    select 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "scheduled_departure", 
+    
+    cast('2017-09-01T09:23:00+00:00' as timestamp with time zone)
+ as "actual_departure", 
+    
+    cast('0:00:00' as interval)
+ as "flight_departure_delay"
+  ) _dbt_internal_unit_test_expected
+)
+-- Union actual and expected results
+select * from dbt_internal_unit_test_actual
+union all
+select * from dbt_internal_unit_test_expected
+[0m15:42:28.725804 [debug] [Thread-1 (]: SQL status: SELECT 2 in 0.018 seconds
+[0m15:42:28.728947 [debug] [Thread-1 (]: Applying DROP to: "test_fact_departure_before_scheduled_depar__dbt_tmp154228602124"
+[0m15:42:28.729579 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"
+[0m15:42:28.729973 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure"} */
+drop table if exists "test_fact_departure_before_scheduled_depar__dbt_tmp154228602124" cascade
+[0m15:42:28.742222 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.012 seconds
+[0m15:42:28.744704 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure: ROLLBACK
+[0m15:42:28.752246 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure: Close
+[0m15:42:28.753112 [info ] [Thread-1 (]: 3 of 5 PASS fct_flights::test_fact_departure_before_scheduled_departure ........ [[32mPASS[0m in 0.47s]
+[0m15:42:28.754108 [debug] [Thread-1 (]: Finished running node unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure
+[0m15:42:28.754506 [debug] [Thread-1 (]: Began running node unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure
+[0m15:42:28.754857 [info ] [Thread-1 (]: 4 of 5 START unit_test fct_flights::test_fact_departure_equal_scheduled_departure  [RUN]
+[0m15:42:28.755546 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly unit_test.dbt_course_practice.fct_flights.test_fact_departure_before_scheduled_departure, now unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure)
+[0m15:42:28.755929 [debug] [Thread-1 (]: Began compiling node unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure
+[0m15:42:28.756233 [debug] [Thread-1 (]: Began executing node unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure
+[0m15:42:28.764010 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"
+[0m15:42:28.764456 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure: BEGIN
+[0m15:42:28.764745 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:42:28.871551 [debug] [Thread-1 (]: SQL status: BEGIN in 0.107 seconds
+[0m15:42:28.872016 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"
+[0m15:42:28.872354 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "dwh_flight".INFORMATION_SCHEMA.columns
+      where table_name = 'stg_flights__flights'
+        
+        and table_schema = 'intermediate'
+        
+      order by ordinal_position
+
+  
+[0m15:42:29.059615 [debug] [Thread-1 (]: SQL status: SELECT 10 in 0.187 seconds
+[0m15:42:29.062060 [debug] [Thread-1 (]: Writing injected SQL for node "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"
+[0m15:42:29.065942 [debug] [Thread-1 (]: Writing injected SQL for node "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"
+[0m15:42:29.069397 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"
+[0m15:42:29.069797 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"} */
+
+    
+  
+    
+
+  create temporary table "test_fact_departure_equal_scheduled_depart__dbt_tmp154229068809"
+  
+  
+    as
+  
+  (
+    select * from (
+        
+with __dbt__cte__stg_flights__flights as (
+
+-- Fixture for stg_flights__flights
+select cast(null as integer) as "flight_id", cast(null as character varying(6)) as "flight_no", 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "scheduled_departure", cast(null as timestamp with time zone) as "scheduled_arrival", cast(null as character varying(3)) as "departure_airport", cast(null as character varying(3)) as "arrival_airport", cast(null as character varying(20)) as "status", cast(null as character varying(3)) as "aircraft_code", 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "actual_departure", cast(null as timestamp with time zone) as "actual_arrival"
+) select
+    flight_id, 
+    flight_no, 
+    scheduled_departure, 
+    scheduled_arrival, 
+    departure_airport, 
+    arrival_airport, 
+    status, 
+    aircraft_code, 
+    actual_departure, 
+    actual_arrival,
+    case
+        when actual_departure is not null and scheduled_departure < actual_departure
+            then actual_departure - scheduled_departure
+            else INTERVAL '0 seconds'
+    end as flight_departure_delay,
+    flight_id  || ', ' || flight_no 
+ as test_macros
+from
+    __dbt__cte__stg_flights__flights
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+  );
+  
+  
+[0m15:42:29.133347 [debug] [Thread-1 (]: SQL status: SELECT 0 in 0.063 seconds
+[0m15:42:29.136121 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"
+[0m15:42:29.136521 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'test_fact_departure_equal_scheduled_depart__dbt_tmp154229068809'
+        
+      order by ordinal_position
+
+  
+[0m15:42:29.169741 [debug] [Thread-1 (]: SQL status: SELECT 12 in 0.033 seconds
+[0m15:42:29.172192 [debug] [Thread-1 (]: Writing runtime sql for node "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"
+[0m15:42:29.173836 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"
+[0m15:42:29.174264 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"} */
+-- Build actual result given inputs
+with dbt_internal_unit_test_actual as (
+  select
+    "scheduled_departure","actual_departure","flight_departure_delay", 'actual' as "actual_or_expected"
+  from (
+    
+with __dbt__cte__stg_flights__flights as (
+
+-- Fixture for stg_flights__flights
+select cast(null as integer) as "flight_id", cast(null as character varying(6)) as "flight_no", 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "scheduled_departure", cast(null as timestamp with time zone) as "scheduled_arrival", cast(null as character varying(3)) as "departure_airport", cast(null as character varying(3)) as "arrival_airport", cast(null as character varying(20)) as "status", cast(null as character varying(3)) as "aircraft_code", 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "actual_departure", cast(null as timestamp with time zone) as "actual_arrival"
+) select
+    flight_id, 
+    flight_no, 
+    scheduled_departure, 
+    scheduled_arrival, 
+    departure_airport, 
+    arrival_airport, 
+    status, 
+    aircraft_code, 
+    actual_departure, 
+    actual_arrival,
+    case
+        when actual_departure is not null and scheduled_departure < actual_departure
+            then actual_departure - scheduled_departure
+            else INTERVAL '0 seconds'
+    end as flight_departure_delay,
+    flight_id  || ', ' || flight_no 
+ as test_macros
+from
+    __dbt__cte__stg_flights__flights
+  ) _dbt_internal_unit_test_actual
+),
+-- Build expected result
+dbt_internal_unit_test_expected as (
+  select
+    "scheduled_departure", "actual_departure", "flight_departure_delay", 'expected' as "actual_or_expected"
+  from (
+    select 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "scheduled_departure", 
+    
+    cast('2017-09-01T09:25:00+00:00' as timestamp with time zone)
+ as "actual_departure", 
+    
+    cast('0:00:00' as interval)
+ as "flight_departure_delay"
+  ) _dbt_internal_unit_test_expected
+)
+-- Union actual and expected results
+select * from dbt_internal_unit_test_actual
+union all
+select * from dbt_internal_unit_test_expected
+[0m15:42:29.190035 [debug] [Thread-1 (]: SQL status: SELECT 2 in 0.015 seconds
+[0m15:42:29.192996 [debug] [Thread-1 (]: Applying DROP to: "test_fact_departure_equal_scheduled_depart__dbt_tmp154229068809"
+[0m15:42:29.193533 [debug] [Thread-1 (]: Using postgres connection "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"
+[0m15:42:29.193872 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure"} */
+drop table if exists "test_fact_departure_equal_scheduled_depart__dbt_tmp154229068809" cascade
+[0m15:42:29.205331 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.011 seconds
+[0m15:42:29.207656 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure: ROLLBACK
+[0m15:42:29.216319 [debug] [Thread-1 (]: On unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure: Close
+[0m15:42:29.217153 [info ] [Thread-1 (]: 4 of 5 PASS fct_flights::test_fact_departure_equal_scheduled_departure ......... [[32mPASS[0m in 0.46s]
+[0m15:42:29.218186 [debug] [Thread-1 (]: Finished running node unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure
+[0m15:42:29.218681 [debug] [Thread-1 (]: Began running node model.dbt_course_practice.fct_flights
+[0m15:42:29.219159 [info ] [Thread-1 (]: 5 of 5 START sql table model intermediate.fct_flights .......................... [RUN]
+[0m15:42:29.219916 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly unit_test.dbt_course_practice.fct_flights.test_fact_departure_equal_scheduled_departure, now model.dbt_course_practice.fct_flights)
+[0m15:42:29.220314 [debug] [Thread-1 (]: Began compiling node model.dbt_course_practice.fct_flights
+[0m15:42:29.223159 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_course_practice.fct_flights"
+[0m15:42:29.223990 [debug] [Thread-1 (]: Began executing node model.dbt_course_practice.fct_flights
+[0m15:42:29.247293 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_course_practice.fct_flights"
+[0m15:42:29.248364 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_flights"
+[0m15:42:29.248734 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_flights: BEGIN
+[0m15:42:29.249020 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:42:29.371548 [debug] [Thread-1 (]: SQL status: BEGIN in 0.122 seconds
+[0m15:42:29.372021 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_flights"
+[0m15:42:29.372373 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_flights: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_flights"} */
+
+  
+    
+
+  create  table "dwh_flight"."intermediate"."fct_flights__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+select
+    flight_id, 
+    flight_no, 
+    scheduled_departure, 
+    scheduled_arrival, 
+    departure_airport, 
+    arrival_airport, 
+    status, 
+    aircraft_code, 
+    actual_departure, 
+    actual_arrival,
+    case
+        when actual_departure is not null and scheduled_departure < actual_departure
+            then actual_departure - scheduled_departure
+            else INTERVAL '0 seconds'
+    end as flight_departure_delay,
+    flight_id  || ', ' || flight_no 
+ as test_macros
+from
+    "dwh_flight"."intermediate"."stg_flights__flights"
+  );
+  
+[0m15:42:30.308833 [debug] [Thread-1 (]: SQL status: SELECT 65664 in 0.936 seconds
+[0m15:42:30.317648 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_flights"
+[0m15:42:30.318040 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_flights: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_flights"} */
+alter table "dwh_flight"."intermediate"."fct_flights" rename to "fct_flights__dbt_backup"
+[0m15:42:30.323127 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.005 seconds
+[0m15:42:30.326045 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_flights"
+[0m15:42:30.326422 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_flights: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_flights"} */
+alter table "dwh_flight"."intermediate"."fct_flights__dbt_tmp" rename to "fct_flights"
+[0m15:42:30.329591 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.003 seconds
+[0m15:42:30.343555 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_flights: COMMIT
+[0m15:42:30.343982 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_flights"
+[0m15:42:30.344286 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_flights: COMMIT
+[0m15:42:30.354364 [debug] [Thread-1 (]: SQL status: COMMIT in 0.010 seconds
+[0m15:42:30.359641 [debug] [Thread-1 (]: Applying DROP to: "dwh_flight"."intermediate"."fct_flights__dbt_backup"
+[0m15:42:30.360218 [debug] [Thread-1 (]: Using postgres connection "model.dbt_course_practice.fct_flights"
+[0m15:42:30.360540 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_flights: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "model.dbt_course_practice.fct_flights"} */
+drop table if exists "dwh_flight"."intermediate"."fct_flights__dbt_backup" cascade
+[0m15:42:30.380030 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.019 seconds
+[0m15:42:30.381396 [debug] [Thread-1 (]: On model.dbt_course_practice.fct_flights: Close
+[0m15:42:30.383880 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5b286b41-7322-4188-8891-e3397aba03d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013B4EB53930>]}
+[0m15:42:30.384554 [info ] [Thread-1 (]: 5 of 5 OK created sql table model intermediate.fct_flights ..................... [[32mSELECT 65664[0m in 1.16s]
+[0m15:42:30.385254 [debug] [Thread-1 (]: Finished running node model.dbt_course_practice.fct_flights
+[0m15:42:30.386556 [debug] [MainThread]: Using postgres connection "master"
+[0m15:42:30.386864 [debug] [MainThread]: On master: BEGIN
+[0m15:42:30.387098 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m15:42:30.498343 [debug] [MainThread]: SQL status: BEGIN in 0.111 seconds
+[0m15:42:30.498781 [debug] [MainThread]: On master: COMMIT
+[0m15:42:30.499074 [debug] [MainThread]: Using postgres connection "master"
+[0m15:42:30.499301 [debug] [MainThread]: On master: COMMIT
+[0m15:42:30.501264 [debug] [MainThread]: SQL status: COMMIT in 0.002 seconds
+[0m15:42:30.501593 [debug] [MainThread]: On master: Close
+[0m15:42:30.502076 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:42:30.502329 [debug] [MainThread]: Connection 'list_dwh_flight' was properly closed.
+[0m15:42:30.502554 [debug] [MainThread]: Connection 'list_dwh_flight_intermediate_seeds' was properly closed.
+[0m15:42:30.502909 [debug] [MainThread]: Connection 'list_dwh_flight_intermediate' was properly closed.
+[0m15:42:30.503156 [debug] [MainThread]: Connection 'model.dbt_course_practice.fct_flights' was properly closed.
+[0m15:42:30.503442 [info ] [MainThread]: 
+[0m15:42:30.503942 [info ] [MainThread]: Finished running 1 table model, 4 unit tests in 0 hours 0 minutes and 4.39 seconds (4.39s).
+[0m15:42:30.505181 [debug] [MainThread]: Command end result
+[0m15:42:30.550517 [debug] [MainThread]: Wrote artifact WritableManifest to D:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m15:42:30.554000 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m15:42:30.559825 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\dbt_ch_docker\dbt_course_practice\target\run_results.json
+[0m15:42:30.560183 [info ] [MainThread]: 
+[0m15:42:30.561006 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:42:30.561456 [info ] [MainThread]: 
+[0m15:42:30.561875 [info ] [MainThread]: Done. PASS=5 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=5
+[0m15:42:30.563379 [debug] [MainThread]: Command `dbt build` succeeded at 15:42:30.563241 after 5.90 seconds
+[0m15:42:30.563747 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013B4C6D3B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013B4E6314F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013B4E631FF0>]}
+[0m15:42:30.564076 [debug] [MainThread]: Flushing usage events
+[0m15:42:31.782860 [debug] [MainThread]: An error was encountered while trying to flush usage events

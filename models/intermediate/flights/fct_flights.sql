@@ -19,6 +19,6 @@ select
             then actual_departure - scheduled_departure
             else INTERVAL '0 seconds'
     end as flight_departure_delay,
-    {{ concat_columns(['flight_id', 'flight_no' ]) }} as test_macros
+    {{ concat_columns([ 'flight_id', 'flight_no' ]) }} as test_macros
 from
     {{ ref('stg_flights__flights') }}
