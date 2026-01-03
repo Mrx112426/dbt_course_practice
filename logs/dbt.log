@@ -15666,3 +15666,554 @@ where
 [0m14:40:28.291678 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002518C607C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002518C0B2850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002518C904A50>]}
 [0m14:40:28.292036 [debug] [MainThread]: Flushing usage events
 [0m14:40:29.376206 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:09:35.045448 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215FF0C4980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215FFB68B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002158023FED0>]}
+
+
+============================== 15:09:35.049345 | 3af2a67b-f9ac-48c3-b857-2b6244fd1cd5 ==============================
+[0m15:09:35.049345 [info ] [MainThread]: Running with dbt=1.10.17
+[0m15:09:35.050532 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt test -s stg_flight_seats', 'use_experimental_parser': 'False', 'log_path': 'D:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m15:09:35.221956 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3af2a67b-f9ac-48c3-b857-2b6244fd1cd5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215FF5349D0>]}
+[0m15:09:35.284455 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3af2a67b-f9ac-48c3-b857-2b6244fd1cd5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215800DECF0>]}
+[0m15:09:35.285513 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m15:09:35.460179 [debug] [MainThread]: checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e, vars: {}, profile: , target: , version: 1.10.17
+[0m15:09:35.658773 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:09:35.659151 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:09:35.736439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3af2a67b-f9ac-48c3-b857-2b6244fd1cd5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021581A8CD50>]}
+[0m15:09:35.934835 [debug] [MainThread]: Wrote artifact WritableManifest to D:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m15:09:35.938006 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m15:09:35.976929 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3af2a67b-f9ac-48c3-b857-2b6244fd1cd5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002158177DA90>]}
+[0m15:09:35.977428 [info ] [MainThread]: Found 62 models, 2 snapshots, 3 analyses, 42 data tests, 2 seeds, 8 sources, 670 macros
+[0m15:09:35.978280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3af2a67b-f9ac-48c3-b857-2b6244fd1cd5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215813B8210>]}
+[0m15:09:35.979361 [warn ] [MainThread]: The selection criterion 'stg_flight_seats' does not match any enabled nodes
+[0m15:09:35.981200 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m15:09:35.983503 [debug] [MainThread]: Command end result
+[0m15:09:36.045391 [debug] [MainThread]: Wrote artifact WritableManifest to D:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m15:09:36.048017 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m15:09:36.051713 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\dbt_ch_docker\dbt_course_practice\target\run_results.json
+[0m15:09:36.053467 [debug] [MainThread]: Command `dbt test` succeeded at 15:09:36.053285 after 1.36 seconds
+[0m15:09:36.053945 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215818357E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215FFF13B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000215817A99D0>]}
+[0m15:09:36.054304 [debug] [MainThread]: Flushing usage events
+[0m15:09:37.113214 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:12:08.058614 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E54F064980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E54FB08B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E55014FED0>]}
+
+
+============================== 15:12:08.062604 | a5510553-a66b-4ead-bdc1-eef6126a4628 ==============================
+[0m15:12:08.062604 [info ] [MainThread]: Running with dbt=1.10.17
+[0m15:12:08.063372 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Umar\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt test -s stg_flights__seats', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'D:\\dbt_ch_docker\\dbt_course_practice\\logs'}
+[0m15:12:08.229959 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a5510553-a66b-4ead-bdc1-eef6126a4628', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E54F4D49D0>]}
+[0m15:12:08.295915 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a5510553-a66b-4ead-bdc1-eef6126a4628', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E54FFEECF0>]}
+[0m15:12:08.297103 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m15:12:08.474007 [debug] [MainThread]: checksum: a50d730a31f4c1af850aa8110f398f1e1657a0325ec5753dae2929b817189a3e, vars: {}, profile: , target: , version: 1.10.17
+[0m15:12:08.674263 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:12:08.674640 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:12:08.752100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a5510553-a66b-4ead-bdc1-eef6126a4628', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E551998D50>]}
+[0m15:12:08.944566 [debug] [MainThread]: Wrote artifact WritableManifest to D:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m15:12:08.947470 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m15:12:08.983518 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a5510553-a66b-4ead-bdc1-eef6126a4628', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E55168DA90>]}
+[0m15:12:08.984068 [info ] [MainThread]: Found 62 models, 2 snapshots, 3 analyses, 42 data tests, 2 seeds, 8 sources, 670 macros
+[0m15:12:08.984948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a5510553-a66b-4ead-bdc1-eef6126a4628', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5502E8210>]}
+[0m15:12:08.987563 [info ] [MainThread]: 
+[0m15:12:08.988255 [info ] [MainThread]: Concurrency: 2 threads (target='dev')
+[0m15:12:08.988827 [info ] [MainThread]: 
+[0m15:12:08.989554 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m15:12:08.997126 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight_intermediate'
+[0m15:12:09.027455 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dwh_flight_snapshot'
+[0m15:12:09.078320 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate"
+[0m15:12:09.078712 [debug] [ThreadPool]: On list_dwh_flight_intermediate: BEGIN
+[0m15:12:09.079011 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:12:09.079588 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_snapshot"
+[0m15:12:09.079917 [debug] [ThreadPool]: On list_dwh_flight_snapshot: BEGIN
+[0m15:12:09.080179 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:12:09.206734 [debug] [ThreadPool]: SQL status: BEGIN in 0.128 seconds
+[0m15:12:09.207198 [debug] [ThreadPool]: SQL status: BEGIN in 0.127 seconds
+[0m15:12:09.207603 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate"
+[0m15:12:09.208043 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_snapshot"
+[0m15:12:09.208383 [debug] [ThreadPool]: On list_dwh_flight_intermediate: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_intermediate"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'intermediate'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'intermediate'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'intermediate'
+  
+[0m15:12:09.208777 [debug] [ThreadPool]: On list_dwh_flight_snapshot: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_snapshot"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'snapshot'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'snapshot'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'snapshot'
+  
+[0m15:12:09.342329 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.133 seconds
+[0m15:12:09.343707 [debug] [ThreadPool]: On list_dwh_flight_snapshot: ROLLBACK
+[0m15:12:09.347563 [debug] [ThreadPool]: On list_dwh_flight_snapshot: Close
+[0m15:12:09.348266 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dwh_flight_snapshot, now list_dwh_flight_intermediate_seeds)
+[0m15:12:09.349890 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate_seeds"
+[0m15:12:09.350217 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: BEGIN
+[0m15:12:09.351026 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:12:09.351809 [debug] [ThreadPool]: SQL status: SELECT 16 in 0.143 seconds
+[0m15:12:09.353073 [debug] [ThreadPool]: On list_dwh_flight_intermediate: ROLLBACK
+[0m15:12:09.356518 [debug] [ThreadPool]: On list_dwh_flight_intermediate: Close
+[0m15:12:09.465258 [debug] [ThreadPool]: SQL status: BEGIN in 0.114 seconds
+[0m15:12:09.465663 [debug] [ThreadPool]: Using postgres connection "list_dwh_flight_intermediate_seeds"
+[0m15:12:09.465941 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "list_dwh_flight_intermediate_seeds"} */
+select
+      'dwh_flight' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'intermediate_seeds'
+    union all
+    select
+      'dwh_flight' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'intermediate_seeds'
+    union all
+    select
+      'dwh_flight' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'intermediate_seeds'
+  
+[0m15:12:09.587970 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.122 seconds
+[0m15:12:09.589220 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: ROLLBACK
+[0m15:12:09.592347 [debug] [ThreadPool]: On list_dwh_flight_intermediate_seeds: Close
+[0m15:12:09.600193 [debug] [MainThread]: Using postgres connection "master"
+[0m15:12:09.600593 [debug] [MainThread]: On master: BEGIN
+[0m15:12:09.600966 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:12:09.695772 [debug] [MainThread]: SQL status: BEGIN in 0.095 seconds
+[0m15:12:09.696177 [debug] [MainThread]: Using postgres connection "master"
+[0m15:12:09.696558 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m15:12:09.823391 [debug] [MainThread]: SQL status: SELECT 1 in 0.126 seconds
+[0m15:12:09.824860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a5510553-a66b-4ead-bdc1-eef6126a4628', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E551CDA4E0>]}
+[0m15:12:09.825318 [debug] [MainThread]: On master: ROLLBACK
+[0m15:12:09.829465 [debug] [MainThread]: Using postgres connection "master"
+[0m15:12:09.829817 [debug] [MainThread]: On master: BEGIN
+[0m15:12:09.832047 [debug] [MainThread]: SQL status: BEGIN in 0.002 seconds
+[0m15:12:09.832422 [debug] [MainThread]: On master: COMMIT
+[0m15:12:09.832719 [debug] [MainThread]: Using postgres connection "master"
+[0m15:12:09.832955 [debug] [MainThread]: On master: COMMIT
+[0m15:12:09.834520 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m15:12:09.834861 [debug] [MainThread]: On master: Close
+[0m15:12:09.839138 [debug] [Thread-1 (]: Began running node test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef
+[0m15:12:09.839596 [debug] [Thread-2 (]: Began running node test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf
+[0m15:12:09.840038 [info ] [Thread-1 (]: 1 of 7 START test accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy  [RUN]
+[0m15:12:09.841065 [debug] [Thread-1 (]: Acquiring new postgres connection 'test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef'
+[0m15:12:09.841436 [debug] [Thread-1 (]: Began compiling node test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef
+[0m15:12:09.840461 [info ] [Thread-2 (]: 2 of 7 START test dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code  [RUN]
+[0m15:12:09.860962 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef"
+[0m15:12:09.861610 [debug] [Thread-2 (]: Acquiring new postgres connection 'test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf'
+[0m15:12:09.862372 [debug] [Thread-2 (]: Began compiling node test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf
+[0m15:12:09.872771 [debug] [Thread-2 (]: Writing injected SQL for node "test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf"
+[0m15:12:09.874216 [debug] [Thread-1 (]: Began executing node test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef
+[0m15:12:09.891779 [debug] [Thread-2 (]: Began executing node test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf
+[0m15:12:09.892293 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef"
+[0m15:12:09.894289 [debug] [Thread-2 (]: Writing runtime sql for node "test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf"
+[0m15:12:09.895828 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef"
+[0m15:12:09.896201 [debug] [Thread-1 (]: On test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef: BEGIN
+[0m15:12:09.896501 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:12:09.897218 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf"
+[0m15:12:09.897579 [debug] [Thread-2 (]: On test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf: BEGIN
+[0m15:12:09.897985 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m15:12:10.008400 [debug] [Thread-1 (]: SQL status: BEGIN in 0.112 seconds
+[0m15:12:10.008851 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef"
+[0m15:12:10.009172 [debug] [Thread-1 (]: On test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with all_values as (
+
+    select
+        fare_conditions as value_field,
+        count(*) as n_records
+
+    from "dwh_flight"."intermediate"."stg_flights__seats"
+    group by fare_conditions
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'Business','Comfort','Economy'
+)
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m15:12:10.020266 [debug] [Thread-2 (]: SQL status: BEGIN in 0.122 seconds
+[0m15:12:10.020750 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf"
+[0m15:12:10.021084 [debug] [Thread-2 (]: On test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+
+
+
+
+
+with validation_errors as (
+
+    select
+        seat_no, aircraft_code
+    from "dwh_flight"."intermediate"."stg_flights__seats"
+    group by seat_no, aircraft_code
+    having count(*) > 1
+
+)
+
+select *
+from validation_errors
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m15:12:10.094557 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.085 seconds
+[0m15:12:10.098418 [debug] [Thread-1 (]: On test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef: ROLLBACK
+[0m15:12:10.101397 [debug] [Thread-2 (]: SQL status: SELECT 1 in 0.080 seconds
+[0m15:12:10.102784 [debug] [Thread-2 (]: On test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf: ROLLBACK
+[0m15:12:10.103218 [debug] [Thread-1 (]: On test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef: Close
+[0m15:12:10.104018 [info ] [Thread-1 (]: 1 of 7 PASS accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy  [[32mPASS[0m in 0.26s]
+[0m15:12:10.104992 [debug] [Thread-1 (]: Finished running node test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef
+[0m15:12:10.105377 [debug] [Thread-1 (]: Began running node test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e
+[0m15:12:10.105721 [info ] [Thread-1 (]: 3 of 7 START test not_null_stg_flights__seats_aircraft_code .................... [RUN]
+[0m15:12:10.106356 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbt_course_practice.accepted_values_stg_flights__seats_fare_conditions__Business__Comfort__Economy.23faf205ef, now test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e)
+[0m15:12:10.106788 [debug] [Thread-1 (]: Began compiling node test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e
+[0m15:12:10.107153 [debug] [Thread-2 (]: On test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf: Close
+[0m15:12:10.113470 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e"
+[0m15:12:10.114646 [info ] [Thread-2 (]: 2 of 7 PASS dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code  [[32mPASS[0m in 0.25s]
+[0m15:12:10.115877 [debug] [Thread-2 (]: Finished running node test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf
+[0m15:12:10.116376 [debug] [Thread-2 (]: Began running node test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c
+[0m15:12:10.116989 [debug] [Thread-1 (]: Began executing node test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e
+[0m15:12:10.121643 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e"
+[0m15:12:10.118080 [info ] [Thread-2 (]: 4 of 7 START test not_null_stg_flights__seats_fare_conditions .................. [RUN]
+[0m15:12:10.122974 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.dbt_course_practice.dbt_utils_unique_combination_of_columns_stg_flights__seats_seat_no__aircraft_code.bc322b3ebf, now test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c)
+[0m15:12:10.123460 [debug] [Thread-2 (]: Began compiling node test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c
+[0m15:12:10.129132 [debug] [Thread-2 (]: Writing injected SQL for node "test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c"
+[0m15:12:10.130297 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e"
+[0m15:12:10.130984 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e: BEGIN
+[0m15:12:10.131700 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:12:10.133061 [debug] [Thread-2 (]: Began executing node test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c
+[0m15:12:10.137127 [debug] [Thread-2 (]: Writing runtime sql for node "test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c"
+[0m15:12:10.139498 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c"
+[0m15:12:10.140054 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c: BEGIN
+[0m15:12:10.140378 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m15:12:10.254068 [debug] [Thread-1 (]: SQL status: BEGIN in 0.122 seconds
+[0m15:12:10.254576 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e"
+[0m15:12:10.254912 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select aircraft_code
+from "dwh_flight"."intermediate"."stg_flights__seats"
+where aircraft_code is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m15:12:10.278437 [debug] [Thread-2 (]: SQL status: BEGIN in 0.138 seconds
+[0m15:12:10.279029 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c"
+[0m15:12:10.279427 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select fare_conditions
+from "dwh_flight"."intermediate"."stg_flights__seats"
+where fare_conditions is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m15:12:10.308732 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.053 seconds
+[0m15:12:10.310414 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e: ROLLBACK
+[0m15:12:10.314052 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e: Close
+[0m15:12:10.315038 [info ] [Thread-1 (]: 3 of 7 PASS not_null_stg_flights__seats_aircraft_code .......................... [[32mPASS[0m in 0.21s]
+[0m15:12:10.315953 [debug] [Thread-1 (]: Finished running node test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e
+[0m15:12:10.316376 [debug] [Thread-1 (]: Began running node test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db
+[0m15:12:10.316942 [info ] [Thread-1 (]: 5 of 7 START test not_null_stg_flights__seats_seat_no .......................... [RUN]
+[0m15:12:10.317793 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbt_course_practice.not_null_stg_flights__seats_aircraft_code.d0b808f60e, now test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db)
+[0m15:12:10.318262 [debug] [Thread-1 (]: Began compiling node test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db
+[0m15:12:10.322996 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db"
+[0m15:12:10.325194 [debug] [Thread-1 (]: Began executing node test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db
+[0m15:12:10.328746 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db"
+[0m15:12:10.330308 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db"
+[0m15:12:10.330967 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db: BEGIN
+[0m15:12:10.331454 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:12:10.333708 [debug] [Thread-2 (]: SQL status: SELECT 1 in 0.054 seconds
+[0m15:12:10.335743 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c: ROLLBACK
+[0m15:12:10.339738 [debug] [Thread-2 (]: On test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c: Close
+[0m15:12:10.340954 [info ] [Thread-2 (]: 4 of 7 PASS not_null_stg_flights__seats_fare_conditions ........................ [[32mPASS[0m in 0.22s]
+[0m15:12:10.342790 [debug] [Thread-2 (]: Finished running node test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c
+[0m15:12:10.343558 [debug] [Thread-2 (]: Began running node test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b
+[0m15:12:10.344236 [info ] [Thread-2 (]: 6 of 7 START test relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_  [RUN]
+[0m15:12:10.345164 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.dbt_course_practice.not_null_stg_flights__seats_fare_conditions.0e7a86106c, now test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b)
+[0m15:12:10.345586 [debug] [Thread-2 (]: Began compiling node test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b
+[0m15:12:10.353608 [debug] [Thread-2 (]: Writing injected SQL for node "test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b"
+[0m15:12:10.354677 [debug] [Thread-2 (]: Began executing node test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b
+[0m15:12:10.356953 [debug] [Thread-2 (]: Writing runtime sql for node "test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b"
+[0m15:12:10.359264 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b"
+[0m15:12:10.359788 [debug] [Thread-2 (]: On test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b: BEGIN
+[0m15:12:10.360120 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m15:12:10.439425 [debug] [Thread-1 (]: SQL status: BEGIN in 0.108 seconds
+[0m15:12:10.439922 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db"
+[0m15:12:10.440243 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select seat_no
+from "dwh_flight"."intermediate"."stg_flights__seats"
+where seat_no is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m15:12:10.468627 [debug] [Thread-2 (]: SQL status: BEGIN in 0.108 seconds
+[0m15:12:10.469078 [debug] [Thread-2 (]: Using postgres connection "test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b"
+[0m15:12:10.469399 [debug] [Thread-2 (]: On test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select aircraft_code as from_field
+    from "dwh_flight"."intermediate"."stg_flights__seats"
+    where aircraft_code is not null
+),
+
+parent as (
+    select aircraft_code as to_field
+    from "dwh_flight"."intermediate"."stg_flights__aircrafts"
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m15:12:10.490874 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.050 seconds
+[0m15:12:10.492816 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db: ROLLBACK
+[0m15:12:10.496766 [debug] [Thread-1 (]: On test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db: Close
+[0m15:12:10.497577 [info ] [Thread-1 (]: 5 of 7 PASS not_null_stg_flights__seats_seat_no ................................ [[32mPASS[0m in 0.18s]
+[0m15:12:10.498362 [debug] [Thread-1 (]: Finished running node test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db
+[0m15:12:10.498764 [debug] [Thread-1 (]: Began running node test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2
+[0m15:12:10.499103 [info ] [Thread-1 (]: 7 of 7 START test seat_no_pattern_stg_flights__seats_seat_no ................... [RUN]
+[0m15:12:10.499821 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.dbt_course_practice.not_null_stg_flights__seats_seat_no.82b5d1e1db, now test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2)
+[0m15:12:10.500234 [debug] [Thread-1 (]: Began compiling node test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2
+[0m15:12:10.504948 [debug] [Thread-1 (]: Writing injected SQL for node "test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2"
+[0m15:12:10.506002 [debug] [Thread-1 (]: Began executing node test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2
+[0m15:12:10.508364 [debug] [Thread-1 (]: Writing runtime sql for node "test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2"
+[0m15:12:10.509324 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2"
+[0m15:12:10.509798 [debug] [Thread-1 (]: On test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2: BEGIN
+[0m15:12:10.510309 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m15:12:10.569014 [debug] [Thread-2 (]: SQL status: SELECT 1 in 0.099 seconds
+[0m15:12:10.570423 [debug] [Thread-2 (]: On test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b: ROLLBACK
+[0m15:12:10.573823 [debug] [Thread-2 (]: On test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b: Close
+[0m15:12:10.574722 [info ] [Thread-2 (]: 6 of 7 PASS relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_  [[32mPASS[0m in 0.23s]
+[0m15:12:10.575743 [debug] [Thread-2 (]: Finished running node test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b
+[0m15:12:10.630664 [debug] [Thread-1 (]: SQL status: BEGIN in 0.120 seconds
+[0m15:12:10.631121 [debug] [Thread-1 (]: Using postgres connection "test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2"
+[0m15:12:10.631497 [debug] [Thread-1 (]: On test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2: /* {"app": "dbt", "dbt_version": "1.10.17", "profile_name": "dbt_course_practice", "target_name": "dev", "node_id": "test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2"} */
+
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+  select seat_no
+  from "dwh_flight"."intermediate"."stg_flights__seats"
+  where not seat_no ~ '^[0-9]{1,2}[A-Z]+$'
+
+  
+  
+      
+    ) dbt_internal_test
+[0m15:12:10.703545 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.072 seconds
+[0m15:12:10.705162 [debug] [Thread-1 (]: On test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2: ROLLBACK
+[0m15:12:10.708911 [debug] [Thread-1 (]: On test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2: Close
+[0m15:12:10.709932 [info ] [Thread-1 (]: 7 of 7 PASS seat_no_pattern_stg_flights__seats_seat_no ......................... [[32mPASS[0m in 0.21s]
+[0m15:12:10.710736 [debug] [Thread-1 (]: Finished running node test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2
+[0m15:12:10.712169 [debug] [MainThread]: Using postgres connection "master"
+[0m15:12:10.712484 [debug] [MainThread]: On master: BEGIN
+[0m15:12:10.712723 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m15:12:10.814483 [debug] [MainThread]: SQL status: BEGIN in 0.102 seconds
+[0m15:12:10.814906 [debug] [MainThread]: On master: COMMIT
+[0m15:12:10.815174 [debug] [MainThread]: Using postgres connection "master"
+[0m15:12:10.815400 [debug] [MainThread]: On master: COMMIT
+[0m15:12:10.817100 [debug] [MainThread]: SQL status: COMMIT in 0.001 seconds
+[0m15:12:10.817446 [debug] [MainThread]: On master: Close
+[0m15:12:10.817914 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:12:10.818172 [debug] [MainThread]: Connection 'list_dwh_flight_intermediate' was properly closed.
+[0m15:12:10.818377 [debug] [MainThread]: Connection 'list_dwh_flight_intermediate_seeds' was properly closed.
+[0m15:12:10.818727 [debug] [MainThread]: Connection 'test.dbt_course_practice.seat_no_pattern_stg_flights__seats_seat_no.f586ac78b2' was properly closed.
+[0m15:12:10.819000 [debug] [MainThread]: Connection 'test.dbt_course_practice.relationships_stg_flights__seats_aircraft_code__aircraft_code__ref_stg_flights__aircrafts_.366b6bb43b' was properly closed.
+[0m15:12:10.819296 [info ] [MainThread]: 
+[0m15:12:10.819730 [info ] [MainThread]: Finished running 7 data tests in 0 hours 0 minutes and 1.83 seconds (1.83s).
+[0m15:12:10.821224 [debug] [MainThread]: Command end result
+[0m15:12:10.865810 [debug] [MainThread]: Wrote artifact WritableManifest to D:\dbt_ch_docker\dbt_course_practice\target\manifest.json
+[0m15:12:10.868274 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\dbt_ch_docker\dbt_course_practice\target\semantic_manifest.json
+[0m15:12:10.874910 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\dbt_ch_docker\dbt_course_practice\target\run_results.json
+[0m15:12:10.875741 [info ] [MainThread]: 
+[0m15:12:10.876500 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m15:12:10.877515 [info ] [MainThread]: 
+[0m15:12:10.878495 [info ] [MainThread]: Done. PASS=7 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=7
+[0m15:12:10.879538 [debug] [MainThread]: Command `dbt test` succeeded at 15:12:10.879404 after 3.12 seconds
+[0m15:12:10.879901 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E54FEB3B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5516A6570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5516A7D80>]}
+[0m15:12:10.880239 [debug] [MainThread]: Flushing usage events
+[0m15:12:12.101121 [debug] [MainThread]: An error was encountered while trying to flush usage events
